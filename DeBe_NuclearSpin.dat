@@ -1,0 +1,2246 @@
+#F NuclearSpin.dat
+#UT Neutron scattering factors, nuclear spin and atomic masses for isotopes
+#UIDL xndebe
+#UD Neutron scattering factors, nuclear spin and atomic masses for isotopes
+#UD 
+#UD Data collected from web site:
+#UD http://www.ati.ac.at/~neutropt/scattering/table.html
+#UD For nuclear spin and associated scattering length values data are from
+#UD + H. Rauch and W. Waschkowski, New Series I/16A (ed. H. Schopper), chap 6
+#UD   Springer, Berlin 2000.
+#UD + L. Koester, H. Rauch and E. Seymann, Atomic Data, Nuclear Data Tables,
+#UD   49 (1991) 65.
+#UD 
+#UD Relative atomic masses are from values published in Atomic Weights of the
+#UD Elements 1997 and are tabulated by the NIST. See web site:
+#UD http://physics.nist.gov/PhysRefData/Compositions/
+#UD 
+#UD Elements are listed by following increasing order of atomic number. For
+#UD most of them the first group of data are the data for the natural
+#UD element followed by a list of isotopes.
+#UD Columns are :
+#UD (Note => 1 fermi = 10E-15 meter and 1 barn = 10E-24 square centimeters)
+#UD + NatAb/HalfLife -> Natural abundance or half life for unstable elements.
+#UD + NuclearSpin -> Nuclear spin. (set to -9999 for natural - bulk - element)
+#UD + RelAtMass -> Relative atomic mass or standard atomic weight for natural
+#UD elements (so called molar mass). Both are given in grams per mole.
+#UD + Density -> density of the natural (bulk) element in gram per cubic centimeter.
+#UD + BondScatLen -> Bond coherent scattering length for the given element in fermi.
+#UD + b+ -> Parallel Bond coherent scattering length for the given element including
+#UD polarization effect with a neutron spin equal to + 1/2. Values in fermi.
+#UD + b- -> Anti-parallel Bond coherent scattering length for the given element including
+#UD polarization effect with a neutron spin equal to - 1/2. Values in fermi.
+#UD + CohXSec -> Coherent cross section for the given element in barns.
+#UD + IncXSec -> Incoherent cross section for the element in barns.
+#UD + ScatXSec -> Scattering cross section for the element in barns.
+#UD + AbsXSec -> Absorption cross section at 1.798A for element in barns.
+#UD 
+
+
+#S 1  natural.H
+#UNAME H
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 1.00794 0.0899 -3.7409 -9999 -9999 1.7568 80.26 82.02 0.3326
+
+#S 1  1H
+#UNAME H
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.985 0.500000 1.0078250321 0.0899 -3.7423 10.817 -47.420 1.7583 80.27 82.03 0.3326
+
+#S 1  2H
+#UNAME H
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.0149 1 2.0141017780 0.0899 6.674 9.53 0.975 5.592 2.05 7.64 0.000519
+
+#S 1  3H
+#UNAME H
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.26Y 0.500000 3.0160492675 0.0899 4.792 4.18 6.56 2.89 0.14 3.03 <6.0E-6
+
+#S 2  natural.He
+#UNAME He
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 4.002602 0.1787 3.26 -9999 -9999 1.34 0 1.34 0.00747
+
+#S 2  3He
+#UNAME He
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.00013 0.500000 3.0160293097 0.1787 5.74 4.7 8.8 4.42 1.6 6.0 5333.0
+
+#S 2  4He
+#UNAME He
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.99987 0 4.0026032497 0.1787 3.26 -9999 -9999 1.34 0 1.34 0
+
+#S 3  natural.Li
+#UNAME Li
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 6.941 0.53 -1.90 -9999 -9999 0.454 0.92 1.37 70.5
+
+#S 3  6Li
+#UNAME Li
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.5 1 6.0151223 0.53 2.0 0.67 4.67 0.51 0.46 0.97 940.0
+
+#S 3  7Li
+#UNAME Li
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+92.5 1.50000 7.0160040 0.53 -2.22 -4.15 1.00 0.619 0.78 1.40 0.0454
+
+#S 4  9Be
+#UNAME Be
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 1.50000 9.0121821 1.85 7.79 -9999 -9999 7.63 0.0018 7.63 0.0076
+
+#S 5  natural.B
+#UNAME B
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 10.811 2.34 5.30 -9999 -9999 3.54 1.70 5.24 767.0
+
+#S 5  10B
+#UNAME B
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+19.4 3 10.0129370 2.34 -0.2 -4.2 5.2 0.144 3.0 3.1 3835.0
+
+#S 5  11B
+#UNAME B
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+80.2 1.50000 11.0093055 2.34 6.65 5.6 8.3 5.56 0.21 5.77 0.0055
+
+#S 6  natural.C
+#UNAME C
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 12.0107 2.62 6.6484 -9999 -9999 5.551 0.001 5.551 0.00350
+
+#S 6  12C
+#UNAME C
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+98.89 0 12.0000000 2.62 6.6535 -9999 -9999 5.559 0 5.559 0.00353
+
+#S 6  13C
+#UNAME C
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.11 0.500000 13.0033548378 2.62 6.19 5.6 6.2 4.81 0.034 4.84 0.00137
+
+#S 7  natural.N
+#UNAME N
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 14.00674 1.251 9.36 -9999 -9999 11.01 0.50 11.51 1.90
+
+#S 7  14N
+#UNAME N
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.635 1 14.0030740052 1.251 9.37 10.7 6.2 11.03 0.50 11.53 1.91
+
+#S 7  15N
+#UNAME N
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.365 0.500000 15.0001088984 1.251 6.44 6.77 6.21 5.21 0.00005 5.21 0.000024
+
+#S 8  natural.O
+#UNAME O
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 15.9994 1.429 5.805 -9999 -9999 4.232 0.000 4.232 0.00019
+
+#S 8  16O
+#UNAME O
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.75 0 15.9949146221 1.429 5.805 -9999 -9999 4.232 0 4.232 0.00010
+
+#S 8  17O
+#UNAME O
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.039 2.50000 16.99913150 1.429 5.6 5.52 5.17 4.20 0.004 4.20 0.236
+
+#S 8  18O
+#UNAME O
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.208 0 17.9991604 1.429 5.84 -9999 -9999 4.29 0 4.29 0.00016
+
+#S 9  19F
+#UNAME F
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 0.500000 18.99840320 1.696 5.654 5.632 5.767 4.017 0.0008 4.018 0.0096
+
+#S 10  natural.Ne
+#UNAME Ne
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 20.1797 0.901 4.566 -9999 -9999 2.620 0.008 2.628 0.039
+
+#S 10  20Ne
+#UNAME Ne
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+90.5 0 19.9924401759 0.901 4.631 -9999 -9999 2.695 0 2.695 0.036
+
+#S 10  21Ne
+#UNAME Ne
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.27 1.50000 20.99384674 0.901 6.66 -9999 -9999 5.6 0.05 5.7 0.67
+
+#S 10  22Ne
+#UNAME Ne
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+9.2 0 21.99138551 0.901 3.87 -9999 -9999 1.88 0 1.88 0.046
+
+#S 11  23Na
+#UNAME Na
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 1.50000 22.98976967 0.97 3.63 6.42 -1.00 1.66 1.62 3.28 0.530
+
+#S 12  natural.Mg
+#UNAME Mg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 24.3050 1.74 5.375 -9999 -9999 3.631 0.08 3.71 0.063
+
+#S 12  24Mg
+#UNAME Mg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+78.99 0 23.98504190 1.74 5.49 -9999 -9999 4.03 0 4.03 0.050
+
+#S 12  25Mg
+#UNAME Mg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+10 2.50000 24.98583702 1.74 3.62 4.73 1.76 1.65 0.28 1.93 0.19
+
+#S 12  26Mg
+#UNAME Mg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11 0 25.98259304 1.74 4.89 -9999 -9999 3.00 0 3.00 0.0382
+
+#S 13  27Al
+#UNAME Al
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 2.50000 26.98153844 2.70 3.449 3.67 3.15 1.495 0.0082 1.503 0.231
+
+#S 14  natural.Si
+#UNAME Si
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 28.0855 2.33 4.15071 -9999 -9999 2.1633 0.004 2.167 0.171
+
+#S 14  28Si
+#UNAME Si
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+92.2 0 27.9769265327 2.33 4.106 -9999 -9999 2.120 0 2.120 0.177
+
+#S 14  29Si
+#UNAME Si
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4.7 0.500000 28.97649472 2.33 4.7 4.50 4.7 2.78 0.001 2.78 0.101
+
+#S 14  30Si
+#UNAME Si
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+3.1 0 29.97377022 2.33 4.58 -9999 -9999 2.64 0 2.64 0.107
+
+#S 15  31P
+#UNAME P
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 0.500000 30.97376151 1.82 5.13 -9999 -9999 3.307 0.005 3.312 0.172
+
+#S 16  natural.S
+#UNAME S
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 32.066 2.07 2.847 -9999 -9999 1.0186 0.007 1.026 0.53
+
+#S 16  32S
+#UNAME S
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+95 0 31.97207069 2.07 2.804 -9999 -9999 0.9880 0 0.9880 0.54
+
+#S 16  33S
+#UNAME S
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.74 1.50000 32.97145850 2.07 4.74 -9999 -9999 2.8 0.3 3.1 0.54
+
+#S 16  34S
+#UNAME S
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4.2 0 33.96786683 2.07 3.48 -9999 -9999 1.52 0 1.52 0.227
+
+#S 16  36S
+#UNAME S
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.02 0 35.96708088 2.07 3.0 -9999 -9999 1.1 0 1.1 0.15
+
+#S 17  natural.Cl
+#UNAME Cl
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 35.4527 3.17 9.5792 -9999 -9999 11.528 5.3 16.8 33.5
+
+#S 17  35Cl
+#UNAME Cl
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+75.77 1.50000 34.96885271 3.17 11.70 16.3 4.0 17.06 4.7 21.8 44.1
+
+#S 17  37Cl
+#UNAME Cl
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+24.23 1.50000 36.96590260 3.17 3.08 3.10 3.05 1.19 0.001 1.19 0.433
+
+#S 18  natural.Ar
+#UNAME Ar
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 39.948 1.784 1.909 -9999 -9999 0.458 0.225 0.683 0.675
+
+#S 18  36Ar
+#UNAME Ar
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.34 0 35.96754628 1.784 24.9 -9999 -9999 77.9 0 77.9 5.2
+
+#S 18  38Ar
+#UNAME Ar
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.07 0 37.9627322 1.784 3.5 -9999 -9999 1.5 0 1.5 0.8
+
+#S 18  40Ar
+#UNAME Ar
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.59 0 39.962383123 1.784 1.7 -9999 -9999 0.421 0 0.421 0.660
+
+#S 19  natural.K
+#UNAME K
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 39.0983 0.86 3.67 -9999 -9999 1.69 0.27 1.96 2.1
+
+#S 19  39K
+#UNAME K
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+93.3 1.50000 38.9637069 0.86 3.79 5.15 1.51 1.76 0.25 2.01 2.1
+
+#S 19  40K
+#UNAME K
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.012 4 39.96399867 0.86 3.1 -9999 -9999 1.1 0.5 1.6 35.0
+
+#S 19  41K
+#UNAME K
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+6.7 1.50000 40.96182597 0.86 2.69 -9999 -9999 0.91 0.3 1.2 1.46
+
+#S 20  natural.Ca
+#UNAME Ca
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 40.078 1.55 4.70 -9999 -9999 2.78 0.05 2.83 0.43
+
+#S 20  40Ca
+#UNAME Ca
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+96.94 0 39.9625912 1.55 4.78 -9999 -9999 2.90 0 2.90 0.41
+
+#S 20  42Ca
+#UNAME Ca
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.64 0 41.9586183 1.55 3.36 -9999 -9999 1.42 0 1.42 0.68
+
+#S 20  43Ca
+#UNAME Ca
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.13 3.50000 42.9587668 1.55 -1.56 -9999 -9999 0.31 0.5 0.8 6.2
+
+#S 20  44Ca
+#UNAME Ca
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.13 0 43.9554811 1.55 1.42 -9999 -9999 0.25 0 0.25 0.88
+
+#S 20  46Ca
+#UNAME Ca
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.003 0 45.9536928 1.55 3.55 -9999 -9999 1.6 0 1.6 0.74
+
+#S 20  48Ca
+#UNAME Ca
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.18 0 47.952534 1.55 0.39 -9999 -9999 0.019 0 0.019 1.09
+
+#S 21  45Sc
+#UNAME Sc
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 3.50000 44.9559102 3.0 12.1 6.91 18.99 19.0 4.5 23.5 27.5
+
+#S 22  natural.Ti
+#UNAME Ti
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 47.867 4.50 -3.370 -9999 -9999 1.485 2.87 4.35 6.09
+
+#S 22  46Ti
+#UNAME Ti
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+8 0 45.9526295 4.50 4.72 -9999 -9999 3.05 0 3.05 0.59
+
+#S 22  47Ti
+#UNAME Ti
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.5 2.50000 46.9517638 4.50 3.53 0.46 7.64 1.66 1.5 3.2 1.7
+
+#S 22  48Ti
+#UNAME Ti
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+73.7 0 47.9479471 4.50 -5.86 -9999 -9999 4.65 0 4.65 7.84
+
+#S 22  49Ti
+#UNAME Ti
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.5 3.50000 48.9478708 4.50 0.98 2.6 -1.2 0.14 3.3 3.4 2.2
+
+#S 22  50Ti
+#UNAME Ti
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.3 0 49.9447921 4.50 5.88 -9999 -9999 4.80 0 4.80 0.179
+
+#S 23  natural.V
+#UNAME V
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 50.9415 5.8 -0.443 -9999 -9999 0.01838 5.08 5.10 5.08
+
+#S 23  50V
+#UNAME V
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.25 6 49.9471628 5.8 7.6 -9999 -9999 7.3 0.5 7.8 60.0
+
+#S 23  51V
+#UNAME V
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.75 3.50000 50.9439637 5.8 -0.402 4.93 -7.58 0.0203 5.07 5.09 4.9
+
+#S 24  natural.Cr
+#UNAME Cr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 51.9961 7.19 3.635 -9999 -9999 1.660 1.83 3.49 3.05
+
+#S 24  50Cr
+#UNAME Cr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4.35 0 49.9460496 7.19 -4.50 -9999 -9999 2.54 0 2.54 15.8
+
+#S 24  52Cr
+#UNAME Cr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+83.8 0 51.9405119 7.19 4.914 -9999 -9999 3.042 0 3.042 0.76
+
+#S 24  53Cr
+#UNAME Cr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+9.59 1.50000 52.9406538 7.19 -4.20 1.16 -13.0 2.22 5.93 8.15 18.1
+
+#S 24  54Cr
+#UNAME Cr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.36 0 53.9388849 7.19 4.55 -9999 -9999 2.60 0 2.60 0.36
+
+#S 25  55Mn
+#UNAME Mn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 2.50000 54.9380496 7.43 -3.750 -4.93 -1.46 1.75 0.40 2.15 13.3
+
+#S 26  natural.Fe
+#UNAME Fe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 55.845 7.86 9.45 -9999 -9999 11.22 0.40 11.62 2.56
+
+#S 26  54Fe
+#UNAME Fe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.8 0 53.9396148 7.86 4.2 -9999 -9999 2.2 0 2.2 2.25
+
+#S 26  56Fe
+#UNAME Fe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+91.7 0 55.9349421 7.86 10.1 -9999 -9999 12.42 0 12.42 2.59
+
+#S 26  57Fe
+#UNAME Fe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.19 0.500000 56.9353987 7.86 2.3 -9999 -9999 0.66 0.3 1.0 2.48
+
+#S 26  58Fe
+#UNAME Fe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.28 0 57.9332805 7.86 15 -9999 -9999 28.0 0 28.0 1.28
+
+#S 27  59Co
+#UNAME Co
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 3.50000 58.9332002 8.90 2.49 -9.21 3.58 0.779 4.8 5.6 37.18
+
+#S 28  natural.Ni
+#UNAME Ni
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 58.6934 8.90 10.3 -9999 -9999 13.3 5.2 18.5 4.49
+
+#S 28  58Ni
+#UNAME Ni
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+67.88 0 57.9353479 8.90 14.4 -9999 -9999 26.1 0 26.1 4.6
+
+#S 28  60Ni
+#UNAME Ni
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+26.23 0 59.9307906 8.90 2.8 -9999 -9999 0.99 0 0.99 2.9
+
+#S 28  61Ni
+#UNAME Ni
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.19 1.50000 60.9310604 8.90 7.60 -9999 -9999 7.26 1.9 9.2 2.5
+
+#S 28  62Ni
+#UNAME Ni
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+3.66 0 61.9283488 8.90 -8.7 -9999 -9999 9.5 0 9.5 14.5
+
+#S 28  64Ni
+#UNAME Ni
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.08 0 63.9279696 8.90 -0.37 -9999 -9999 0.017 0 0.017 1.52
+
+#S 29  natural.Cu
+#UNAME Cu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 63.546 8.96 7.718 -9999 -9999 7.485 0.55 8.03 3.78
+
+#S 29  63Cu
+#UNAME Cu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+69.1 1.50000 62.9296011 8.96 6.477 -9999 -9999 5.2 0.006 5.2 4.50
+
+#S 29  65Cu
+#UNAME Cu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+30.9 1.50000 64.9277937 8.96 10.204 -9999 -9999 14.1 0.40 14.5 2.17
+
+#S 30  natural.Zn
+#UNAME Zn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 65.39 7.14 5.680 -9999 -9999 4.054 0.077 4.131 1.11
+
+#S 30  64Zn
+#UNAME Zn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+48.9 0 63.9291466 7.14 5.23 -9999 -9999 3.42 0 3.42 0.93
+
+#S 30  66Zn
+#UNAME Zn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+27.8 0 65.9260368 7.14 5.98 -9999 -9999 4.48 0 4.48 0.62
+
+#S 30  67Zn
+#UNAME Zn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4.1 2.50000 66.9271309 7.14 7.58 5.8 10.1 7.18 0.28 7.46 6.8
+
+#S 30  68Zn
+#UNAME Zn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+18.6 0 67.9248476 7.14 6.04 -9999 -9999 4.57 0 4.57 1.1
+
+#S 30  70Zn
+#UNAME Zn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.62 0 69.925325 7.14 6.9 -9999 -9999 4.5 0 4.5 0.092
+
+#S 31  natural.Ga
+#UNAME Ga
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 69.723 5.91 7.288 -9999 -9999 6.675 0.16 6.83 2.75
+
+#S 31  69Ga
+#UNAME Ga
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+60 1.50000 68.925581 5.91 8.043 6.3 10.5 7.80 0.091 7.89 2.18
+
+#S 31  71Ga
+#UNAME Ga
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+40 1.50000 70.9247050 5.91 6.170 5.5 7.8 5.15 0.084 5.23 3.61
+
+#S 32  natural.Ge
+#UNAME Ge
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 72.61 5.32 8.185 -9999 -9999 8.42 0.18 8.60 2.20
+
+#S 32  70Ge
+#UNAME Ge
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+20.7 0 69.9242504 5.32 10.0 -9999 -9999 12.6 0 12.6 3.0
+
+#S 32  72Ge
+#UNAME Ge
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+27.5 0 71.9220762 5.32 8.51 -9999 -9999 9.1 0 9.1 0.8
+
+#S 32  73Ge
+#UNAME Ge
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.7 4.50000 72.9234594 5.32 5.02 8.1 1.2 3.17 1.5 4.7 15.1
+
+#S 32  74Ge
+#UNAME Ge
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+36.4 0 73.9211782 5.32 7.58 -9999 -9999 7.2 0 7.2 0.4
+
+#S 32  76Ge
+#UNAME Ge
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.7 0 75.9214027 5.32 8.2 -9999 -9999 8.0 0 8.0 0.16
+
+#S 33  75As
+#UNAME As
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 1.50000 74.9215964 5.72 6.58 6.04 7.47 5.44 0.060 5.50 4.5
+
+#S 34  natural.Se
+#UNAME Se
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 78.96 4.80 7.970 -9999 -9999 7.98 0.32 8.30 11.7
+
+#S 34  74Se
+#UNAME Se
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.9 0 73.9224766 4.80 0.8 -9999 -9999 0.1 0 0.1 51.8
+
+#S 34  76Se
+#UNAME Se
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+9 0 75.9192141 4.80 12.2 -9999 -9999 18.7 0 18.7 85.0
+
+#S 34  77Se
+#UNAME Se
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.5 0 76.9199146 4.80 8.25 -9999 -9999 8.6 0.05 8.65 42.0
+
+#S 34  78Se
+#UNAME Se
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+23.5 0 77.9173095 4.80 8.24 -9999 -9999 8.5 0 8.5 0.43
+
+#S 34  80Se
+#UNAME Se
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+50 0 79.9165218 4.80 7.48 -9999 -9999 7.03 0 7.03 0.61
+
+#S 34  82Se
+#UNAME Se
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+8.84 0 81.9167000 4.80 6.34 -9999 -9999 5.05 0 5.05 0.044
+
+#S 35  natural.Br
+#UNAME Br
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 79.904 3.12 6.79 -9999 -9999 5.80 0.10 5.90 6.9
+
+#S 35  79Br
+#UNAME Br
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+50.49 1.50000 78.9183376 3.12 6.79 -9999 -9999 5.81 0.15 5.96 11.0
+
+#S 35  81Br
+#UNAME Br
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+49.31 1.50000 80.916291 3.12 6.78 -9999 -9999 5.79 0.05 5.84 2.7
+
+#S 36  natural.Kr
+#UNAME Kr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 83.80 3.74 7.81 -9999 -9999 7.67 0.01 7.68 25.0
+
+#S 36  78Kr
+#UNAME Kr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.35 0 77.920386 3.74 -9999 -9999 -9999 -9999 0 -9999 6.4
+
+#S 36  80Kr
+#UNAME Kr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.5 0 79.916378 3.74 -9999 -9999 -9999 -9999 0 -9999 11.8
+
+#S 36  82Kr
+#UNAME Kr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11.6 0 81.9134846 3.74 -9999 -9999 -9999 -9999 0 -9999 29.0
+
+#S 36  83Kr
+#UNAME Kr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11.5 4.50000 82.914136 3.74 -9999 -9999 -9999 -9999 -9999 -9999 185.0
+
+#S 36  84Kr
+#UNAME Kr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 83.911507 3.74 57 -9999 -9999 0 0 6.6 0.113
+
+#S 36  86Kr
+#UNAME Kr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+17.3 0 85.9106103 3.74 8.07 -9999 -9999 8.2 0 8.2 0.003
+
+#S 37  natural.Rb
+#UNAME Rb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 85.4678 1.53 7.08 -9999 -9999 6.32 0.5 6.8 0.38
+
+#S 37  85Rb
+#UNAME Rb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+72.17 2.50000 84.9117893 1.53 7.07 -9999 -9999 6.2 0.5 6.7 0.48
+
+#S 37  87Rb
+#UNAME Rb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+27.83 1.50000 86.9091835 1.53 7.27 -9999 -9999 6.6 0.5 7.1 0.12
+
+#S 38  natural.Sr
+#UNAME Sr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 87.62 2.6 7.02 -9999 -9999 6.19 0.06 6.25 1.28
+
+#S 38  84Sr
+#UNAME Sr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.56 0 83.913425 2.6 5.0 -9999 -9999 6.0 0 6.0 0.87
+
+#S 38  86Sr
+#UNAME Sr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+9.9 0 85.9092624 2.6 5.68 -9999 -9999 4.04 0 4.04 1.04
+
+#S 38  87Sr
+#UNAME Sr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7 4.50000 86.9088793 2.6 7.41 -9999 -9999 6.88 0.5 7.4 16.0
+
+#S 38  88Sr
+#UNAME Sr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+82.6 0 87.9056143 2.6 7.16 -9999 -9999 6.42 0 6.42 0.058
+
+#S 39  89Y
+#UNAME Y
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 0.500000 88.9058479 4.5 7.75 8.4 5.8 7.55 0.15 7.70 1.28
+
+#S 40  natural.Zr
+#UNAME Zr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 91.224 6.49 7.16 -9999 -9999 6.44 0.02 6.46 0.185
+
+#S 40  90Zr
+#UNAME Zr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+51.48 0 89.9047037 6.49 6.5 -9999 -9999 5.1 0 5.1 0.011
+
+#S 40  91Zr
+#UNAME Zr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11.23 2.50000 90.9056450 6.49 8.8 7.9 10.1 9.5 0.15 9.7 1.17
+
+#S 40  92Zr
+#UNAME Zr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+17.11 0 91.9050401 6.49 7.5 -9999 -9999 6.9 0 6.9 0.22
+
+#S 40  94Zr
+#UNAME Zr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+17.4 0 93.9063158 6.49 8.3 -9999 -9999 8.4 0 8.4 0.0499
+
+#S 40  96Zr
+#UNAME Zr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.8 0 95.908276 6.49 5.5 -9999 -9999 3.8 0 3.8 0.0229
+
+#S 41  93Zr
+#UNAME Nb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 4.50000 92.9063775 8.55 7.054 7.06 7.35 6.253 0.0024 6.255 1.15
+
+#S 42  natural.Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 95.94 10.2 6.715 -9999 -9999 5.67 0.04 5.71 2.48
+
+#S 42  92Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+15.48 0 91.906810 10.2 6.93 -9999 -9999 6.00 0 6.00 0.019
+
+#S 42  94Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+9.1 0 93.9050876 10.2 6.82 -9999 -9999 5.81 0 5.81 0.015
+
+#S 42  95Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+15.72 2.50000 94.9058415 10.2 6.93 -9999 -9999 6.00 0.5 6.5 13.1
+
+#S 42  96Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+16.53 0 95.9046789 10.2 6.22 -9999 -9999 4.83 0 4.83 0.5
+
+#S 42  97Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+9.5 2.50000 96.9060210 10.2 7.26 -9999 -9999 6.59 0.5 7.1 2.5
+
+#S 42  98Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+23.78 0 97.9054078 10.2 6.60 -9999 -9999 5.44 0 5.44 0.127
+
+#S 42  100Mo
+#UNAME Mo
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+9.6 0 99.907477 10.2 6.75 -9999 -9999 5.69 0 5.69 0.4
+
+#S 43  99Tc
+#UNAME Tc
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+210000Y 4.50000 98.9062546 11.5 6.8 -9999 -9999 5.8 0.5 6.3 20.0
+
+#S 44  natural.Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 101.07 12.2 7.02 -9999 -9999 6.21 0.4 6.6 2.56
+
+#S 44  96Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.8 0 95.907598 12.2 -9999 -9999 -9999 -9999 0 -9999 0.28
+
+#S 44  98Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.9 0 97.905287 12.2 -9999 -9999 -9999 -9999 0 -9999 <8.0
+
+#S 44  99Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.7 2.50000 98.9059393 12.2 -9999 -9999 -9999 -9999 -9999 -9999 6.9
+
+#S 44  100Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.6 0 99.9042197 12.2 -9999 -9999 -9999 -9999 0 -9999 4.8
+
+#S 44  101Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+17.07 2.50000 100.9055822 12.2 -9999 -9999 -9999 -9999 -9999 -9999 3.3
+
+#S 44  102Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+31.61 0 101.9043495 12.2 -9999 -9999 -9999 -9999 0 -9999 1.17
+
+#S 44  104Ru
+#UNAME Ru
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+18.58 0 103.905430 12.2 -9999 -9999 -9999 -9999 0 -9999 0.31
+
+#S 45  103Rh
+#UNAME Rh
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 0.500000 102.905504 12.4 5.90 8.15 6.74 4.34 0.3 4.6 144.8
+
+#S 46  natural.Pd
+#UNAME Pd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 106.42 12.0 5.91 -9999 -9999 4.39 0.093 4.48 6.9
+
+#S 46  102Pd
+#UNAME Pd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1 0 101.905608 12.0 7.7 -9999 -9999 7.5 0 7.5 3.4
+
+#S 46  104Pd
+#UNAME Pd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11 0 103.904035 12.0 7.7 -9999 -9999 7.5 0 7.5 0.6
+
+#S 46  105Pd
+#UNAME Pd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+22.33 2.50000 104.905084 12.0 5.5 -9999 -9999 3.8 0.8 4.6 20.0
+
+#S 46  106Pd
+#UNAME Pd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+27.33 0 105.903483 12.0 6.4 -9999 -9999 5.1 0 5.1 0.304829)
+
+#S 46  108Pd
+#UNAME Pd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+26.71 0 107.903894 12.0 4.1 -9999 -9999 2.1 0 2.1 8.5
+
+#S 46  110Pd
+#UNAME Pd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11.8 0 109.905152 12.0 7.7 -9999 -9999 7.5 0 7.5 0.226
+
+#S 47  natural.Ag
+#UNAME Ag
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 107.8682 10.5 5.922 -9999 -9999 4.407 0.58 4.99 63.3
+
+#S 47  107Ag
+#UNAME Ag
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+51.8 0.500000 106.905093 10.5 7.555 8.14 5.8 7.17 0.13 7.30 37.6
+
+#S 47  109Ag
+#UNAME Ag
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+48.2 0.500000 108.904756 10.5 4.165 3.24 6.9 2.18 0.32 2.50 91.0
+
+#S 48  natural.Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 112.411 8.65 4.83 -9999 -9999 3.04 3.46 6.50 2520.0
+
+#S 48  106Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.2 0 105.906458 8.65 5.0 -9999 -9999 3.1 0 3.1 1.0
+
+#S 48  108Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.9 0 107.904183 8.65 5.31 -9999 -9999 3.7 0 3.7 1.1
+
+#S 48  110Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.39 0 109.903006 8.65 5.78 -9999 -9999 4.4 0 4.4 11.0
+
+#S 48  111Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.75 0.500000 110.904182 8.65 6.47 -9999 -9999 5.3 0.3 5.6 24.0
+
+#S 48  112Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+24.07 0 111.9027572 8.65 6.34 -9999 -9999 5.1 0 5.1 2.2
+
+#S 48  113Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.36 0.500000 112.9044009 8.65 -8.0 -9999 -9999 12.1 0.3 12.4 20600.0
+
+#S 48  114Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+28.86 0 113.9033581 8.65 7.48 -9999 -9999 7.1 0 7.1 0.34
+
+#S 48  116Cd
+#UNAME Cd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.58 0 115.904755 8.65 6.26 -9999 -9999 5.0 0 5.0 0.075
+
+#S 49  natural.In
+#UNAME In
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 114.818 7.31 4.065 -9999 -9999 2.08 0.54 2.62 193.8
+
+#S 49  113In
+#UNAME In
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4.28 4.50000 112.904061 7.31 5.39 -9999 -9999 3.65 0.000037 3.65 12.0
+
+#S 49  115In
+#UNAME In
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+95.72 4.50000 114.903878 7.31 4.00 2.1 6.4 2.02 0.55 2.57 202.0
+
+#S 50  natural.Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 118.710 7.30 6.225 -9999 -9999 4.871 0.022 4.892 0.626
+
+#S 50  112Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1 0 111.904821 7.30 6.0 -9999 -9999 4.5 0 4.5 1.00
+
+#S 50  114Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.66 0 113.902782 7.30 6.0 -9999 -9999 4.8 0 4.8 0.114
+
+#S 50  115Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.35 0.500000 114.903346 7.30 6.0 -9999 -9999 4.5 0.3 4.8 30.0
+
+#S 50  116Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+14.3 0 115.901744 7.30 6.10 -9999 -9999 4.42 0 4.42 0.14
+
+#S 50  117Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.61 0.500000 116.902954 7.30 6.59 0.22 -0.23 5.28 0.3 5.6 2.3
+
+#S 50  118Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+24.03 0 117.901606 7.30 6.23 -9999 -9999 4.63 0 4.63 0.22
+
+#S 50  119Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+8.58 0.500000 118.903309 7.30 6.28 0.14 0.0 4.71 0.3 5.0 2.2
+
+#S 50  120Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+32.86 0 119.9021966 7.30 6.67 -9999 -9999 5.29 0 5.29 0.14
+
+#S 50  122Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4.72 0 121.9034401 7.30 5.93 -9999 -9999 4.14 0 4.14 0.18
+
+#S 50  124Sn
+#UNAME Sn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.94 0 123.9052746 7.30 6.15 -9999 -9999 4.48 0 4.48 0.133
+
+#S 51  natural.Sb
+#UNAME Sb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 121.760 6.68 5.57 -9999 -9999 3.90 0.00 3.90 4.91
+
+#S 51  121Sb
+#UNAME Sb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+57.25 2.50000 120.9038180 6.68 5.71 5.7 5.8 4.10 0.0003 4.10 5.75
+
+#S 51  123Sb
+#UNAME Sb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+42.75 3.50000 122.9042157 6.68 5.38 5.2 5.4 3.64 0.001 3.64 3.8
+
+#S 52  natural.Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 127.60 6.24 5.68 -9999 -9999 4.23 0.09 4.32 4.7
+
+#S 52  120Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.09 0 119.904020 6.24 5.3 -9999 -9999 3.5 0 3.5 2.3
+
+#S 52  122Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.4 0 121.9030471 6.24 3.8 -9999 -9999 1.8 0 1.8 3.4
+
+#S 52  123Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.87 0.500000 122.9042730 6.24 -0.05 -1.2 3.5 0.002 0.52 0.52 418.0
+
+#S 52  124Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4.61 0 123.9028195 6.24 7.95 -9999 -9999 8.0 0 8.0 6.8
+
+#S 52  125Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+6.99 0.500000 124.9044247 6.24 5.01 4.9 5.5 3.17 0.008 3.18 1.55
+
+#S 52  126Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+18.71 0 125.9033055 6.24 5.55 -9999 -9999 3.88 0 3.88 1.04
+
+#S 52  128Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+31.79 0 127.9044614 6.24 5.88 -9999 -9999 4.36 0 4.36 0.215
+
+#S 52  130Te
+#UNAME Te
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+34.48 0 129.9062228 6.24 6.01 -9999 -9999 4.55 0 4.55 0.29
+
+#S 53  127I
+#UNAME I
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 2.50000 126.904468 4.92 5.28 6.6 3.4 3.50 0.31 3.81 6.15
+
+#S 54  natural.Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 131.29 5.89 4.69 -9999 -9999 3.04 0 -9999 23.9
+
+#S 54  124Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.1 0 123.9058958 5.89 -9999 -9999 -9999 -9999 0 -9999 165.0
+
+#S 54  126Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.09 0 125.904269 5.89 -9999 -9999 -9999 -9999 0 -9999 3.5
+
+#S 54  128Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.9 0 127.9035304 5.89 -9999 -9999 -9999 -9999 0 -9999 <8.0
+
+#S 54  129Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+26.14 0.500000 128.9047795 5.89 -9999 -9999 -9999 -9999 -9999 -9999 21.0
+
+#S 54  130Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+3.3 0 129.9035079 5.89 -9999 -9999 -9999 -9999 0 -9999 <26.0
+
+#S 54  131Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+21.18 1.50000 130.9050819 5.89 -9999 -9999 -9999 -9999 -9999 -9999 85.0
+
+#S 54  132Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+26.89 0 131.9041545 5.89 -9999 -9999 -9999 -9999 0 -9999 0.45
+
+#S 54  134Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+10.4 0 133.9053945 5.89 -9999 -9999 -9999 -9999 0 -9999 0.265
+
+#S 54  136Xe
+#UNAME Xe
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+8.9 0 135.907220 5.89 -9999 -9999 -9999 -9999 0 -9999 0.26
+
+#S 55  133Cs
+#UNAME Cs
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 3.50000 132.905447 1.87 5.42 -9999 -9999 3.69 0.21 3.90 29.0
+
+#S 56  natural.Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 137.327 3.5 5.07 -9999 -9999 3.23 0.15 3.38 1.1
+
+#S 56  130Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.1 0 129.906310 3.5 -3.6 -9999 -9999 1.6 0 1.6 30.0
+
+#S 56  132Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.09 0 131.905056 3.5 7.8 -9999 -9999 7.6 0 7.6 7.0
+
+#S 56  134Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.4 0 133.904503 3.5 5.7 -9999 -9999 4.08 0 4.08 2.0
+
+#S 56  135Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+6.59 1.50000 134.905683 3.5 4.66 -9999 -9999 2.74 0.5 3.2 5.8
+
+#S 56  136Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.81 0 135.904570 3.5 4.90 -9999 -9999 3.03 0 3.03 0.68
+
+#S 56  137Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11.32 1.50000 136.905821 3.5 6.82 -9999 -9999 5.86 0.5 6.4 3.6
+
+#S 56  138Ba
+#UNAME Ba
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+71.66 0 137.905241 3.5 4.83 -9999 -9999 2.94 0 2.94 0.27
+
+#S 57  natural.La
+#UNAME La
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 138.9055 6.7 8.24 -9999 -9999 8.53 1.13 9.66 8.97
+
+#S 57  138La
+#UNAME La
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.09 5 137.907107 6.7 8.0 -9999 -9999 8.0 0.5 8.5 57.0
+
+#S 57  139La
+#UNAME La
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.91 3.50000 138.906348 6.7 8.24 11.4 4.5 8.53 1.13 9.66 8.93
+
+#S 58  natural.Ce
+#UNAME Ce
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 140.116 6.78 4.84 -9999 -9999 2.94 0.00 2.94 0.63
+
+#S 58  136Ce
+#UNAME Ce
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.19 0 135.907140 6.78 5.76 -9999 -9999 4.23 0 4.23 7.3
+
+#S 58  138Ce
+#UNAME Ce
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.26 0 137.905986 6.78 6.65 -9999 -9999 5.64 0 5.64 1.1
+
+#S 58  140Ce
+#UNAME Ce
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+88.48 0 139.905434 6.78 4.81 -9999 -9999 2.94 0 2.94 0.57
+
+#S 58  142Ce
+#UNAME Ce
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11.07 0 141.909240 6.78 4.72 -9999 -9999 2.84 0 2.84 0.95
+
+#S 59  141Pr
+#UNAME Pr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 2.50000 140.907648 6.77 4.58 -9999 -9999 2.64 0.015 2.66 11.5
+
+#S 60  natural.Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 144.24 7.00 7.69 -9999 -9999 7.43 9.2 16.6 50.5
+
+#S 60  142Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+27.11 0 141.907719 7.00 7.7 -9999 -9999 7.5 0 7.5 18.7
+
+#S 60  143Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.17 3.50000 142.909810 7.00 14.0 -9999 -9999 25.0 55.0 80.0 337.0
+
+#S 60  144Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+23.85 0 143.910083 7.00 2.8 -9999 -9999 1.0 0 1.0 3.6
+
+#S 60  145Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+8.5 3.50000 144.912569 7.00 14.0 -9999 -9999 25.0 5.0 30.0 42.0
+
+#S 60  146Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+17.22 0 145.913112 7.00 8.7 -9999 -9999 9.5 0 9.5 1.4
+
+#S 60  148Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.7 0 147.916889 7.00 5.7 -9999 -9999 4.1 0 4.1 2.5
+
+#S 60  150Nd
+#UNAME Nd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.6 0 149.920887 7.00 5.28 -9999 -9999 3.5 0 3.5 1.2
+
+#S 61  147Pm
+#UNAME Pm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.62Y 3.50000 146.915134 6.475 12.6 -9999 -9999 20.0 1.3 21.3 168.4
+
+#S 62  natural.Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 150.36 7.54 0.00 -9999 -9999 0.422 39.0 39.4 5922.0
+
+#S 62  144Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+3.1 0 143.911995 7.54 -3.0 -9999 -9999 1.0 0 1.0 0.7
+
+#S 62  147Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+15 3.50000 146.914893 7.54 14.0 -9999 -9999 25.0 14.0 39.0 57.0
+
+#S 62  148Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+11.2 0 147.914818 7.54 -3.0 -9999 -9999 1.0 0 1.0 2.4
+
+#S 62  149Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+13.8 3.50000 148.917180 7.54 18.7 -9999 -9999 63.5 137.0 200.0 42080.0
+
+#S 62  150Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.4 0 149.917271 7.54 14.0 -9999 -9999 25.0 0 25.0 104.0
+
+#S 62  152Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+26.7 0 151.919728 7.54 -5.0 -9999 -9999 3.1 0 3.1 206.0
+
+#S 62  154Sm
+#UNAME Sm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+22.8 0 153.922205 7.54 8.0 -9999 -9999 11.0 0 11.0 8.4
+
+#S 63  natural.Eu
+#UNAME Eu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 151.964 5.26 5.3 -9999 -9999 6.57 2.5 9.2 4530.0
+
+#S 63  151Eu
+#UNAME Eu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+47.8 2.50000 150.919846 5.26 -9999 -9999 -9999 5.5 3.1 8.6 9100.0
+
+#S 63  153Eu
+#UNAME Eu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+52.8 2.50000 152.921226 5.26 8.22 -9999 -9999 8.5 1.3 9.8 312.0
+
+#S 64  natural.Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 157.25 7.89 9.5 -9999 -9999 29.3 151.0 180.0 49700.0
+
+#S 64  152Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.2 0 151.919788 7.89 10.0 -9999 -9999 13.0 0 13.0 735.0
+
+#S 64  154Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.2 0 153.920862 7.89 10.0 -9999 -9999 13.0 0 13.0 85.0
+
+#S 64  155Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+14.9 1.50000 154.922619 7.89 13.8 -9999 -9999 40.8 25.0 66.0 61100.0
+
+#S 64  156Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+20.6 0 155.922120 7.89 6.3 -9999 -9999 5.0 0 5.0 1.5
+
+#S 64  157Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+15.7 1.50000 156.923957 7.89 4.0 -9999 -9999 650.0 394.0 1044.0 259000.0
+
+#S 64  158Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+24.7 0 157.924101 7.89 9.0 -9999 -9999 10.0 0 10.0 2.2
+
+#S 64  160Gd
+#UNAME Gd
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+21.7 0 159.927051 7.89 9.15 -9999 -9999 10.52 0 10.52 0.77
+
+#S 65  159Tb
+#UNAME Tb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 1.50000 158.925343 8.27 7.34 6.8 8.1 6.84 0.004 6.84 23.4
+
+#S 66  natural.Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 162.50 8.54 16.9 -9999 -9999 35.9 54.4 90.3 994.0
+
+#S 66  156Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.06 0 155.924278 8.54 6.1 -9999 -9999 4.7 0 4.7 33.0
+
+#S 66  158Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.1 0 157.924405 8.54 6.0 -9999 -9999 5.0 0 5. 43.0
+
+#S 66  160Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.3 0 159.925194 8.54 6.7 -9999 -9999 5.6 0 5.6 56.0
+
+#S 66  161Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+18.9 2.50000 160.926930 8.54 10.3 -9999 -9999 13.3 3.0 16.0 600.0
+
+#S 66  162Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+25.5 0 161.926795 8.54 -1.4 -9999 -9999 0.25 0 0.25 194.0
+
+#S 66  163Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+24.9 2.50000 162.928728 8.54 5.0 6.1 3.5 3.1 0.21 3.3 124.0
+
+#S 66  164Dy
+#UNAME Dy
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+28.2 0 163.929171 8.54 49.4 -9999 -9999 307.0 0 307.0 2840.0
+
+#S 67  165Ho
+#UNAME Ho
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 3.50000 164.930319 8.80 8.44 6.9 10.3 8.06 0.36 8.42 64.7
+
+#S 68  natural.Er
+#UNAME Er
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 167.26 9.05 7.79 -9999 -9999 7.63 1.1 8.7 159.0
+
+#S 68  162Er
+#UNAME Er
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.14 0 161.928775 9.05 9.01 -9999 -9999 9.7 0 9.7 19.0
+
+#S 68  164Er
+#UNAME Er
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.6 0 163.929197 9.05 7.95 -9999 -9999 8.4 0 8.4 13.0
+
+#S 68  166Er
+#UNAME Er
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+33.4 0 165.930290 9.05 10.51 -9999 -9999 14.1 0 14.1 19.6
+
+#S 68  167Er
+#UNAME Er
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+22.9 3.50000 166.932045 9.05 3.06 5.3 0.0 1.1 0.13 1.2 659.0
+
+#S 68  168Er
+#UNAME Er
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+27 0 167.932368 9.05 7.43 -9999 -9999 6.9 0 6.9 2.74
+
+#S 68  170Er
+#UNAME Er
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+15 0 169.935460 9.05 9.61 -9999 -9999 11.6 0 11.6 5.8
+
+#S 69  169Tm
+#UNAME Tm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 0.500000 168.934211 9.33 7.07 -9999 -9999 6.28 0.10 6.38 100.0
+
+#S 70  natural.Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 173.04 6.98 12.41 -9999 -9999 19.42 4.0 23.4 34.8
+
+#S 70  168Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.14 0 167.933894 6.98 -4.07 -9999 -9999 2.13 0 2.13 2230.0
+
+#S 70  170Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+3 0 169.934759 6.98 6.8 -9999 -9999 5.8 0 5.8 11.4
+
+#S 70  171Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+14.3 0.500000 170.936322 6.98 9.7 6.5 19.4 11.7 3.9 15.6 48.6
+
+#S 70  172Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+21.9 0 171.9363777 6.98 9.5 -9999 -9999 11.2 0 11.2 0.8
+
+#S 70  173Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+16.3 2.50000 172.9382068 6.98 9.56 2.5 13.3 11.5 3.5 15 17.1
+
+#S 70  174Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+31.8 0 173.9388581 6.98 19.2 -9999 -9999 46.8 0 46.8 69.4
+
+#S 70  176Yb
+#UNAME Yb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+12.7 0 175.942568 6.98 8.7 -9999 -9999 9.6 0 9.6 2.85
+
+#S 71  natural.Lu
+#UNAME Lu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 174.967 9.84 7.21 -9999 -9999 6.53 0.7 7.2 74.0
+
+#S 71  175Lu
+#UNAME Lu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+97.4 3.50000 174.9407679 9.84 7.28 -9999 -9999 6.59 0.6 7.2 21.0
+
+#S 71  176Lu
+#UNAME Lu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2.6 7 175.9426824 9.84 6.1 -9999 -9999 4.7 1.2 5.9 2065.
+
+#S 72  natural.Hf
+#UNAME Hf
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 178.49 13.1 7.77 -9999 -9999 7.6 2.6 10.2 104.1
+
+#S 72  174Hf
+#UNAME Hf
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.184 0 173.940040 13.1 10.9 -9999 -9999 15.0 0 15.0 561.0
+
+#S 72  176Hf
+#UNAME Hf
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+5.2 0 175.9414018 13.1 6.61 -9999 -9999 5.5 0 5.5 23.5
+
+#S 72  177Hf
+#UNAME Hf
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+18.5 0 176.9432200 13.1 0.8 -9999 -9999 0.1 0.1 0.2 373.0
+
+#S 72  178Hf
+#UNAME Hf
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+27.2 0 177.9436977 13.1 5.9 -9999 -9999 4.4 0 4.4 84.0
+
+#S 72  179Hf
+#UNAME Hf
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+13.8 4.50000 178.9458151 13.1 7.46 -9999 -9999 7.0 0.14 7.1 41.0
+
+#S 72  180Hf
+#UNAME Hf
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+35.1 0 179.9465488 13.1 13.2 -9999 -9999 21.9 0 21.9 13.04
+
+#S 73  natural.Ta
+#UNAME Ta
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 180.9479 16.6 6.91 -9999 -9999 6.00 0.01 6.01 20.6
+
+#S 73  180Ta
+#UNAME Ta
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.012 9 179.947466 16.6 7.0 -9999 -9999 6.2 0.5 7.0 563.0
+
+#S 73  181Ta
+#UNAME Ta
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.98 3.50000 180.947996 16.6 6.91 -9999 -9999 6.00 0.011 6.01 20.5
+
+#S 74  natural.W
+#UNAME W
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 183.84 19.3 4.755 -9999 -9999 2.97 1.63 4.60 18.3
+
+#S 74  180W
+#UNAME W
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.13 0 179.946706 19.3 5.0 -9999 -9999 3.0 0 3.0 30.0
+
+#S 74  182W
+#UNAME W
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+26.3 0.500000 181.948206 19.3 7.04 -9999 -9999 6.10 0 6.10 20.7
+
+#S 74  183W
+#UNAME W
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+14.3 0.500000 182.9502245 19.3 6.59 6.3 7.0 5.36 0.3 5.7 10.1
+
+#S 74  184W
+#UNAME W
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+30.7 0 183.9509326 19.3 7.55 -9999 -9999 7.03 0 7.03 1.7
+
+#S 74  186W
+#UNAME W
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+28.6 0 185.954362 19.3 -0.73 -9999 -9999 0.065 0 0.065 37.9
+
+#S 75  natural.Re
+#UNAME Re
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 186.207 21.0 9.2 -9999 -9999 10.6 0.9 11.5 89.7
+
+#S 75  185Re
+#UNAME Re
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+37.5 2.50000 184.9529557 21.0 9.0 -9999 -9999 10.2 0.5 10.7 112.0
+
+#S 75  187Re
+#UNAME Re
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+62.5 2.50000 186.9557508 21.0 9.3 -9999 -9999 10.9 1.0 11.9 76.4
+
+#S 76  natural.Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 190.23 22.4 10.7 -9999 -9999 14.4 0.3 14.7 16.0
+
+#S 76  184Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.02 0 183.952491 22.4 10.0 -9999 -9999 13.0 0 13.0 3000.0
+
+#S 76  186Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.6 0 185.953838 22.4 12.0 -9999 -9999 17.0 0 17.0 80.0
+
+#S 76  187Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.6 0.500000 186.9557479 22.4 10.0 -9999 -9999 13.0 0.3 13.0 320.0
+
+#S 76  188Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+13.3 0 187.9558360 22.4 7.8 -9999 -9999 7.3 0 7.3 4.7
+
+#S 76  189Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+16.1 1.50000 188.9581449 22.4 11.0 -9999 -9999 14.4 0.5 14.9 25.0
+
+#S 76  190Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+26.4 0 189.958445 22.4 11.4 -9999 -9999 15.2 0 15.2 13.1
+
+#S 76  192Os
+#UNAME Os
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+41 0 191.961479 22.4 11.9 -9999 -9999 16.6 0 16.6 2.0
+
+#S 77  natural.Ir
+#UNAME Ir
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 192.217 22.5 10.6 -9999 -9999 14.1 0.0 14.0 425.0
+
+#S 77  191Ir
+#UNAME Ir
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+37.4 1.50000 190.960591 22.5 -9999 -9999 -9999 -9999 -9999 -9999 954.0
+
+#S 77  193Ir
+#UNAME Ir
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+62.6 1.50000 192.962924 22.5 -9999 -9999 -9999 -9999 -9999 -9999 111.0
+
+#S 78  natural.Pt
+#UNAME Pt
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 195.078 21.4 9.60 -9999 -9999 11.58 0.13 11.71 10.3
+
+#S 78  190Pt
+#UNAME Pt
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.01 0 189.959930 21.4 9.0 -9999 -9999 10.0 0 10.0 152.0
+
+#S 78  192Pt
+#UNAME Pt
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.78 0 191.961035 21.4 9.9 -9999 -9999 12.3 0 12.3 10.0
+
+#S 78  194Pt
+#UNAME Pt
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+32.9 0 193.962664 21.4 10.55 -9999 -9999 14.0 0 14.0 1.44
+
+#S 78  195Pt
+#UNAME Pt
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+33.8 0.500000 194.964774 21.4 8.91 9.5 7.2 9.8 0.13 9.9 27.5
+
+#S 78  196Pt
+#UNAME Pt
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+25.3 0 195.964935 21.4 9.89 -9999 -9999 12.3 0 12.3 0.72
+
+#S 78  198Pt
+#UNAME Pt
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7.2 0 197.967876 21.4 7.8 -9999 -9999 7.6 0 7.6 3.66
+
+#S 79  197Au
+#UNAME Au
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 1.50000 196.966552 19.3 7.90 6.26 9.90 7.32 0.43 7.75 98.65
+
+#S 80  natural.Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 200.59 13.53 12.595 -9999 -9999 20.24 6.6 26.8 372.3
+
+#S 80  196Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.15 0 195.965815 13.53 30.3 -9999 -9999 115.0 0 115.0 3080.0
+
+#S 80  198Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+10.1 0 197.966752 13.53 -9999 -9999 -9999 -9999 0 -9999 2.0
+
+#S 80  199Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+16.9 0 198.968262 13.53 16.9 -9999 -9999 36.0 30.0 66.0 2150.0
+
+#S 80  200Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+23.1 0 199.968309 13.53 -9999 -9999 -9999 -9999 0 -9999 <60.0
+
+#S 80  201Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+13.2 1.50000 200.970285 13.53 -9999 -9999 -9999 -9999 -9999 -9999 7.8
+
+#S 80  202Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+29.7 0 201.970626 13.53 11.002 -9999 -9999 15.2108 0 15.2108 4.89
+
+#S 80  204Hg
+#UNAME Hg
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+6.8 0 203.973476 13.53 -9999 -9999 -9999 -9999 0 -9999 0.43
+
+#S 81  natural.Tl
+#UNAME Tl
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 204.3833 11.85 8.776 -9999 -9999 9.678 0.21 9.89 3.43
+
+#S 81  203Tl
+#UNAME Tl
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+29.5 0.500000 202.972329 11.85 8.51 9.08 6.62 6.14 0.14 6.28 11.4
+
+#S 81  205Tl
+#UNAME Tl
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+70.5 0.500000 204.974412 11.85 8.87 5.15 9.43 11.39 0.007 11.40 0.104
+
+#S 82  natural.Pb
+#UNAME Pb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 207.2 11.4 9.401 -9999 -9999 11.115 0.0030 11.118 0.171
+
+#S 82  204Pb
+#UNAME Pb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1.4 0 203.973029 11.4 10.893 -9999 -9999 12.3 0 12.3 0.65
+
+#S 82  206Pb
+#UNAME Pb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+24.1 0 205.974449 11.4 9.221 -9999 -9999 10.68 0 10.68 0.0300
+
+#S 82  207Pb
+#UNAME Pb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+22.1 0.500000 206.975881 11.4 9.286 -9999 -9999 10.82 0.002 10.82 0.699
+
+#S 82  208Pb
+#UNAME Pb
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+52.4 0 207.976636 11.4 9.494 -9999 -9999 11.34 0 11.34 0.00048
+
+#S 83  209Bi
+#UNAME Bi
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 4.50000 208.980383 9.8 8.532 8.26 8.74 9.148 0.0084 9.156 0.0338
+
+#S 84  natural.Po
+#UNAME Po
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 [209] 9.4 -9999 -9999 -9999 -9999 -9999 -9999 -9999
+
+#S 85  natural.At
+#UNAME At
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 [210] -9999 -9999 -9999 -9999 -9999 -9999 -9999 -9999
+
+#S 86  natural.Rn
+#UNAME Rn
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 [222] 9.91 -9999 -9999 -9999 -9999 -9999 -9999 -9999
+
+#S 87  natural.Fr
+#UNAME Fr
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 [223] -9999 -9999 -9999 -9999 -9999 -9999 -9999 -9999
+
+#S 88  226Ra
+#UNAME Ra
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+1620Y 0 226.0254026 5 10.0 -9999 -9999 13.0 0 13.0 12.8
+
+#S 89  natural.Ac
+#UNAME Ac
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 [227] 10.07 -9999 -9999 -9999 -9999 -9999 -9999 -9999
+
+#S 90  232Th
+#UNAME Th
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100 0 232.0380504 11.7 10.31 -9999 -9999 13.36 0 13.36 7.37
+
+#S 91  231Pa
+#UNAME Pa
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+32500Y 1.50000 231.0358789 15.4 9.1 -9999 -9999 10.4 0.1 10.5 200.6
+
+#S 92  natural.U
+#UNAME U
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+100.00 -9999 238.0289 18.90 8.417 -9999 -9999 8.903 0.005 8.908 7.57
+
+#S 92  233U
+#UNAME U
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+159000Y 2.50000 233.039628 18.90 10.1 -9999 -9999 12.8 0.1 12.9 574.7
+
+#S 92  234U
+#UNAME U
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.005 0 234.0409456 18.90 12.4 -9999 -9999 19.3 0 19.3 100.1
+
+#S 92  235U
+#UNAME U
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+0.72 3.50000 235.0439231 18.90 10.50 -9999 -9999 13.78 0.2 14.0 680.9
+
+#S 92  238U
+#UNAME U
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+99.27 0 238.0507826 18.90 8.407 -9999 -9999 8.871 0 8.871 2.68
+
+#S 93  237Np
+#UNAME Np
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+2140000Y 2.50000 237.0481673 20.4 10.55 -9999 -9999 14.0 0.5 14.5 175.9
+
+#S 94  239Pu
+#UNAME Pu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+24400Y 0.500000 239.0521565 19.8 7.7 -9999 -9999 7.5 0.2 7.7 1017.3
+
+#S 94  240Pu
+#UNAME Pu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+6540Y 0 240.0538075 19.8 3.5 -9999 -9999 1.54 0 1.54 289.6
+
+#S 94  242Pu
+#UNAME Pu
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+376000Y 0 242.0587368 19.8 8.1 -9999 -9999 8.2 0 8.2 18.5
+
+#S 95  243Am
+#UNAME Am
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+7370Y 2.50000 243.0613727 13.6 8.3 -9999 -9999 8.7 0.3 9.0 75.3
+
+#S 96  244Cm
+#UNAME Cm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+17.9Y 0 244.0627463 13.511 9.5 -9999 -9999 11.3 0 11.3 16.2
+
+#S 96  246Cm
+#UNAME Cm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+4700Y 0 246.0672176 13.511 9.3 -9999 -9999 10.9 0 10.9 1.36
+
+#S 96  248Cm
+#UNAME Cm
+#N 11
+#L  NatAb/HalfLife  NuclearSpin  RelAtMass[g/mol]  Density[g/cm3]  BondScatLen[fm]  b+[fm]  b-[fm]  CohXSec[barn]  IncXSec[barn]  ScatXSec[barn]  AbsXSec[barn]
+340000Y 0 248.072342 13.511 7.7 -9999 -9999 7.5 0 7.5 3.00

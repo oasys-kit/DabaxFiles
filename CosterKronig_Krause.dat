@@ -1,0 +1,569 @@
+#F CosterKronig_Krause.dat
+#C  This file has been created using CosterKronig_Krause.pro 
+#D  Wed May 21 15:30:14 2003
+#C  This file belongs to the DABAX library. More information on
+#C  DABAX can be found at:
+#C  http://www.esrf.fr/computing/scientific/dabax
+#UT Coster Kronig Yields
+#UD  Coster Kronig Yields
+#UD 
+#UD Coster-Kronig Yields
+#UD 
+#UD 
+#UD REFERENCE:
+#UD 
+#UD Data in electronic format from obtained from: 
+#UD 
+#UD   Table of Isotopes, CD-ROM, 8th edition, Version 1.0, March 1996, pag. F40
+#UD   Richard B Firestone
+#UD   S Y Frank Chu, CD-ROM Editor
+#UD   Virginia S Shirley, Editor
+#UD   Wiley-Interscience
+#UD 
+#UD Atomic yields for the K and L shells of elements with Z=12-110 from the 
+#UD evaluation of Krause[1]. The yields are for singly ionized atoms, and do not 
+#UD include corrections for solid state, chemical, or multiple ionization effects. 
+#UD These corrections are expected to be small[2] for all except the lighter 
+#UD elements, and small throughout the spectra, except at the onsets and cutoffs 
+#UD of Coster-Kronig transitions.
+#UD 
+#UD The intrashell radiative yields FP12 and FP13 represent the probabilities for 
+#UD x-ray emission per vacancy in the L1 subshell, resulting in subsequent 
+#UD vacancies in the L2 and L3 subshells, respectively.
+#UD 
+#UD Because FP12  << F1P3 , the yield F1P2 is not listed separately. 
+#UD The Coster-Kronig yields f12, f13, and f23 represent the probabilities for 
+#UD electron emission per vacancy in an L subshells, resulting in vacancies in 
+#UD higher L subshell. 
+#UD 
+#UD Auger yields (a) represent the probabilities for electron emission per vacancy 
+#UD in given atomic shells, resulting in vacancies in higher atomic shells. 
+#UD Auger yields are not given explicitly, but can be calculated for any shell 
+#UD i from the equation: 
+#UD 
+#UD ai=1-FluorescenceYieldi+ fi ,
+#UD where f1= f12+f13 and f2=f23.
+#UD 
+#UD The atomic yields are based on based on both experimental and theoretical 
+#UD information.  Estimates of their percentage uncertainties, listed for various 
+#UD ranges of atomic numbers, are given in [1]. These are based on the presumed 
+#UD and stated reliabilities of the input data or calculations, the number or 
+#UD lack of measurements, and the degrees of compatibility of the different
+#UD relevant data.
+#UD 
+#UD References: 
+#UD [1] M.O. Krause, J. Phys. Chem. Ref. Data8, 307 (1979).
+#UD [2] S.T. Manson, J.L. Dehmer, and M. Inokuti, Bull. Am. Phys. Soc. 22, 1332 G33 (1977).
+#UD 
+#UD Nota:
+#UD -99999 is a dummy value.
+#UD 
+#UD Column description:
+#UD       1:  F12
+#UD       2:  F23
+#UD       3:  FP13
+#UD       4:  F23
+#UD  
+#UD  The scan #S 1000 contains F12,F23,FP13 and F23 for all the elements, 
+#UD  where the first column is the Atomic Number Z. 
+#UD  This is useful to make plots of the values of a given variable as a 
+#UD  function of Z.
+#UD 
+#S  12 Mg
+#N  3
+#L  F12  F13  FP13
+ 0.32 0.64 0.000020
+#S  13 Al
+#N  3
+#L  F12  F13  FP13
+ 0.32 0.64 0.000016
+#S  14 Si
+#N  3
+#L  F12  F13  FP13
+ 0.32 0.64 0.000014
+#S  15 P
+#N  3
+#L  F12  F13  FP13
+ 0.32 0.63 0.000012
+#S  16 S
+#N  3
+#L  F12  F13  FP13
+ 0.32 0.62 0.000014
+#S  17 Cl
+#N  3
+#L  F12  F13  FP13
+ 0.32 0.62 0.000014
+#S  18 Ar
+#N  3
+#L  F12  F13  FP13
+ 0.31 0.62 0.000013
+#S  19 K
+#N  3
+#L  F12  F13  FP13
+ 0.31 0.62 0.000012
+#S  20 Ca
+#N  3
+#L  F12  F13  FP13
+ 0.31 0.61 0.000014
+#S  21 Sc
+#N  3
+#L  F12  F13  FP13
+ 0.31 0.60 0.000014
+#S  22 Ti
+#N  3
+#L  F12  F13  FP13
+ 0.31 0.59 0.000015
+#S  23 V
+#N  3
+#L  F12  F13  FP13
+ 0.31 0.58 0.000016
+#S  24 Cr
+#N  3
+#L  F12  F13  FP13
+ 0.31 0.57 0.000018
+#S  25 Mn
+#N  3
+#L  F12  F13  FP13
+ 0.30 0.58 0.000019
+#S  26 Fe
+#N  3
+#L  F12  F13  FP13
+ 0.30 0.57 0.000021
+#S  27 Co
+#N  3
+#L  F12  F13  FP13
+ 0.30 0.56 0.000023
+#S  28 Ni
+#N  4
+#L  F12  F13  FP13  F23
+ 0.30 0.55 0.000024 0.028
+#S  29 Cu
+#N  4
+#L  F12  F13  FP13  F23
+ 0.30 0.54 0.000026 0.028
+#S  30 Zn
+#N  4
+#L  F12  F13  FP13  F23
+ 0.29 0.54 0.000028 0.026
+#S  31 Ga
+#N  4
+#L  F12  F13  FP13  F23
+ 0.29 0.53 0.000030 0.032
+#S  32 Ge
+#N  4
+#L  F12  F13  FP13  F23
+ 0.28 0.53 0.000032 0.050
+#S  33 As
+#N  4
+#L  F12  F13  FP13  F23
+ 0.28 0.53 0.000034 0.063
+#S  34 Se
+#N  4
+#L  F12  F13  FP13  F23
+ 0.28 0.52 0.000036 0.076
+#S  35 Br
+#N  4
+#L  F12  F13  FP13  F23
+ 0.28 0.52 0.000038 0.088
+#S  36 Kr
+#N  4
+#L  F12  F13  FP13  F23
+ 0.27 0.52 0.000041 0.100
+#S  37 Rb
+#N  4
+#L  F12  F13  FP13  F23
+ 0.27 0.52 0.000044 0.109
+#S  38 Sr
+#N  4
+#L  F12  F13  FP13  F23
+ 0.27 0.52 0.000047 0.117
+#S  39 Y
+#N  4
+#L  F12  F13  FP13  F23
+ 0.26 0.52 0.000052 0.126
+#S  40 Zr
+#N  4
+#L  F12  F13  FP13  F23
+ 0.26 0.52 0.000058 0.132
+#S  41 Nb
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.61 0.000078 0.137
+#S  42 Mo
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.61 0.000081 0.141
+#S  43 Tc
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.61 0.000088 0.144
+#S  44 Ru
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.61 0.000096 0.148
+#S  45 Rh
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.60 0.000100 0.150
+#S  46 Pd
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.60 0.00011 0.151
+#S  47 Ag
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.59 0.00012 0.153
+#S  48 Cd
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.59 0.00014 0.155
+#S  49 In
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.59 0.00016 0.157
+#S  50 Sn
+#N  4
+#L  F12  F13  FP13  F23
+ 0.17 0.27 0.00030 0.157
+#S  51 Sb
+#N  4
+#L  F12  F13  FP13  F23
+ 0.17 0.28 0.00032 0.156
+#S  52 Te
+#N  4
+#L  F12  F13  FP13  F23
+ 0.18 0.28 0.00034 0.155
+#S  53 I
+#N  4
+#L  F12  F13  FP13  F23
+ 0.18 0.28 0.00037 0.154
+#S  54 Xe
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.28 0.00040 0.154
+#S  55 Cs
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.28 0.00043 0.154
+#S  56 Ba
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.28 0.00047 0.153
+#S  57 La
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.29 0.00051 0.153
+#S  58 Ce
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.29 0.00055 0.153
+#S  59 Pr
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.29 0.00060 0.153
+#S  60 Nd
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.00066 0.152
+#S  61 Pm
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.00072 0.151
+#S  62 Sm
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.00079 0.150
+#S  63 Eu
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.00087 0.149
+#S  64 Gd
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.00096 0.147
+#S  65 Tb
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.0011 0.145
+#S  66 Dy
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.0012 0.143
+#S  67 Ho
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.0013 0.142
+#S  68 Er
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.30 0.0014 0.140
+#S  69 Tm
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.29 0.0016 0.139
+#S  70 Yb
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.29 0.0018 0.138
+#S  71 Lu
+#N  4
+#L  F12  F13  FP13  F23
+ 0.19 0.28 0.0020 0.136
+#S  72 Hf
+#N  4
+#L  F12  F13  FP13  F23
+ 0.18 0.28 0.0023 0.135
+#S  73 Ta
+#N  4
+#L  F12  F13  FP13  F23
+ 0.18 0.28 0.0026 0.134
+#S  74 W
+#N  4
+#L  F12  F13  FP13  F23
+ 0.17 0.28 0.0028 0.133
+#S  75 Re
+#N  4
+#L  F12  F13  FP13  F23
+ 0.16 0.33 0.0030 0.130
+#S  76 Os
+#N  4
+#L  F12  F13  FP13  F23
+ 0.16 0.39 0.0029 0.128
+#S  77 Ir
+#N  4
+#L  F12  F13  FP13  F23
+ 0.15 0.45 0.0028 0.126
+#S  78 Pt
+#N  4
+#L  F12  F13  FP13  F23
+ 0.14 0.50 0.0028 0.124
+#S  79 Au
+#N  4
+#L  F12  F13  FP13  F23
+ 0.14 0.53 0.0028 0.122
+#S  80 Hg
+#N  4
+#L  F12  F13  FP13  F23
+ 0.13 0.56 0.0030 0.120
+#S  81 Tl
+#N  4
+#L  F12  F13  FP13  F23
+ 0.13 0.57 0.0032 0.118
+#S  82 Pb
+#N  4
+#L  F12  F13  FP13  F23
+ 0.12 0.58 0.0035 0.116
+#S  83 Bi
+#N  4
+#L  F12  F13  FP13  F23
+ 0.11 0.58 0.0038 0.113
+#S  84 Po
+#N  4
+#L  F12  F13  FP13  F23
+ 0.11 0.58 0.0042 0.111
+#S  85 At
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.59 0.0047 0.111
+#S  86 Rn
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.58 0.0052 0.110
+#S  87 Fr
+#N  4
+#L  F12  F13  FP13  F23
+ 0.10 0.58 0.0058 0.109
+#S  88 Ra
+#N  4
+#L  F12  F13  FP13  F23
+ 0.09 0.58 0.0064 0.108
+#S  89 Ac
+#N  4
+#L  F12  F13  FP13  F23
+ 0.09 0.58 0.0071 0.108
+#S  90 Th
+#N  4
+#L  F12  F13  FP13  F23
+ 0.09 0.57 0.0078 0.108
+#S  91 Pa
+#N  4
+#L  F12  F13  FP13  F23
+ 0.08 0.58 0.0084 0.139
+#S  92 U
+#N  4
+#L  F12  F13  FP13  F23
+ 0.08 0.57 0.0097 0.167
+#S  93 Np
+#N  4
+#L  F12  F13  FP13  F23
+ 0.07 0.57 0.011 0.192
+#S  94 Pu
+#N  4
+#L  F12  F13  FP13  F23
+ 0.05 0.56 0.013 0.198
+#S  95 Am
+#N  4
+#L  F12  F13  FP13  F23
+ 0.05 0.55 0.014 0.203
+#S  96 Cm
+#N  4
+#L  F12  F13  FP13  F23
+ 0.04 0.55 0.016 0.200
+#S  97 Bk
+#N  4
+#L  F12  F13  FP13  F23
+ 0.04 0.54 0.017 0.198
+#S  98 Cf
+#N  4
+#L  F12  F13  FP13  F23
+ 0.03 0.54 0.019 0.197
+#S  99 Es
+#N  4
+#L  F12  F13  FP13  F23
+ 0.03 0.54 0.021 0.196
+#S  100 Fm
+#N  4
+#L  F12  F13  FP13  F23
+ 0.03 0.53 0.023 0.194
+#S  101 Md
+#N  4
+#L  F12  F13  FP13  F23
+ 0.02 0.53 0.026 0.191
+#S  102 No
+#N  4
+#L  F12  F13  FP13  F23
+ 0.02 0.52 0.028 0.189
+#S  103 Lr
+#N  4
+#L  F12  F13  FP13  F23
+ 0.01 0.53 0.030 0.185
+#S  104 Rf
+#N  4
+#L  F12  F13  FP13  F23
+ 0.01 0.52 0.033 0.181
+#S  105 Ha
+#N  4
+#L  F12  F13  FP13  F23
+ 0.01 0.51 0.035 0.178
+#S  106 Sg
+#N  4
+#L  F12  F13  FP13  F23
+ -9999 0.51 0.038 0.174
+#S  107 Ns
+#N  4
+#L  F12  F13  FP13  F23
+ -9999 0.50 0.042 0.171
+#S  108 Hs
+#N  4
+#L  F12  F13  FP13  F23
+ -9999 0.50 0.046 0.165
+#S  109 Mt
+#N  4
+#L  F12  F13  FP13  F23
+ -9999 0.49 0.050 0.163
+#S  110 Xx
+#N  4
+#L  F12  F13  FP13  F23
+ -9999 0.48 0.054 0.158
+#S  1000 all elements
+#N 5
+#L Z  F12  F13  FP13  F23
+12  0.32 0.64 0.000020 -9999
+13  0.32 0.64 0.000016 -9999
+14  0.32 0.64 0.000014 -9999
+15  0.32 0.63 0.000012 -9999
+16  0.32 0.62 0.000014 -9999
+17  0.32 0.62 0.000014 -9999
+18  0.31 0.62 0.000013 -9999
+19  0.31 0.62 0.000012 -9999
+20  0.31 0.61 0.000014 -9999
+21  0.31 0.60 0.000014 -9999
+22  0.31 0.59 0.000015 -9999
+23  0.31 0.58 0.000016 -9999
+24  0.31 0.57 0.000018 -9999
+25  0.30 0.58 0.000019 -9999
+26  0.30 0.57 0.000021 -9999
+27  0.30 0.56 0.000023 -9999
+28  0.30 0.55 0.000024 0.028
+29  0.30 0.54 0.000026 0.028
+30  0.29 0.54 0.000028 0.026
+31  0.29 0.53 0.000030 0.032
+32  0.28 0.53 0.000032 0.050
+33  0.28 0.53 0.000034 0.063
+34  0.28 0.52 0.000036 0.076
+35  0.28 0.52 0.000038 0.088
+36  0.27 0.52 0.000041 0.100
+37  0.27 0.52 0.000044 0.109
+38  0.27 0.52 0.000047 0.117
+39  0.26 0.52 0.000052 0.126
+40  0.26 0.52 0.000058 0.132
+41  0.10 0.61 0.000078 0.137
+42  0.10 0.61 0.000081 0.141
+43  0.10 0.61 0.000088 0.144
+44  0.10 0.61 0.000096 0.148
+45  0.10 0.60 0.000100 0.150
+46  0.10 0.60 0.00011 0.151
+47  0.10 0.59 0.00012 0.153
+48  0.10 0.59 0.00014 0.155
+49  0.10 0.59 0.00016 0.157
+50  0.17 0.27 0.00030 0.157
+51  0.17 0.28 0.00032 0.156
+52  0.18 0.28 0.00034 0.155
+53  0.18 0.28 0.00037 0.154
+54  0.19 0.28 0.00040 0.154
+55  0.19 0.28 0.00043 0.154
+56  0.19 0.28 0.00047 0.153
+57  0.19 0.29 0.00051 0.153
+58  0.19 0.29 0.00055 0.153
+59  0.19 0.29 0.00060 0.153
+60  0.19 0.30 0.00066 0.152
+61  0.19 0.30 0.00072 0.151
+62  0.19 0.30 0.00079 0.150
+63  0.19 0.30 0.00087 0.149
+64  0.19 0.30 0.00096 0.147
+65  0.19 0.30 0.0011 0.145
+66  0.19 0.30 0.0012 0.143
+67  0.19 0.30 0.0013 0.142
+68  0.19 0.30 0.0014 0.140
+69  0.19 0.29 0.0016 0.139
+70  0.19 0.29 0.0018 0.138
+71  0.19 0.28 0.0020 0.136
+72  0.18 0.28 0.0023 0.135
+73  0.18 0.28 0.0026 0.134
+74  0.17 0.28 0.0028 0.133
+75  0.16 0.33 0.0030 0.130
+76  0.16 0.39 0.0029 0.128
+77  0.15 0.45 0.0028 0.126
+78  0.14 0.50 0.0028 0.124
+79  0.14 0.53 0.0028 0.122
+80  0.13 0.56 0.0030 0.120
+81  0.13 0.57 0.0032 0.118
+82  0.12 0.58 0.0035 0.116
+83  0.11 0.58 0.0038 0.113
+84  0.11 0.58 0.0042 0.111
+85  0.10 0.59 0.0047 0.111
+86  0.10 0.58 0.0052 0.110
+87  0.10 0.58 0.0058 0.109
+88  0.09 0.58 0.0064 0.108
+89  0.09 0.58 0.0071 0.108
+90  0.09 0.57 0.0078 0.108
+91  0.08 0.58 0.0084 0.139
+92  0.08 0.57 0.0097 0.167
+93  0.07 0.57 0.011 0.192
+94  0.05 0.56 0.013 0.198
+95  0.05 0.55 0.014 0.203
+96  0.04 0.55 0.016 0.200
+97  0.04 0.54 0.017 0.198
+98  0.03 0.54 0.019 0.197
+99  0.03 0.54 0.021 0.196
+100  0.03 0.53 0.023 0.194
+101  0.02 0.53 0.026 0.191
+102  0.02 0.52 0.028 0.189
+103  0.01 0.53 0.030 0.185
+104  0.01 0.52 0.033 0.181
+105  0.01 0.51 0.035 0.178
+106  -9999 0.51 0.038 0.174
+107  -9999 0.50 0.042 0.171
+108  -9999 0.50 0.046 0.165
+109  -9999 0.49 0.050 0.163
+110  -9999 0.48 0.054 0.158
