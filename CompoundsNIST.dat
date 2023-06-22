@@ -1,0 +1,1919 @@
+#F CompoundsNIST.dat
+#C  This file has been created by CompoundsNIST.py using xraylib
+#C  This file belongs to the DABAX library. 
+#C  DABAX files are at: http://ftp.esrf.eu/pub/scisoft/DabaxFiles/
+#UT NIST Compounds and Mixtures (formula, density and composition)
+#UD NIST Compounds and Mixtures (formula, density and composition)
+#UD 
+#UD This file contains composition and densities of a list of usual 
+#UD materials. Data comes from:
+#UD 3) NIST (from A-150 TISSUE-EQUIVALENT PLASTIC to WATER, LIQUID) Ref:
+#UD    https://physics.nist.gov/PhysRefData/XrayMassCoef/tab4.html
+#UD 
+#UD Data follows the same convention as in xraylib (https://github.com/tschoonj/xraylib/)
+#UD Data is arranged in a number of lines equal to the number of 
+#UD elements in the mixtute sorted by Z. 
+#UD The column description is: 
+#UD  1: Elements (the Z value)
+#UD  2: massFractions (the weight fractions)
+#UD  
+#UD The additional keywords are defined (as in the xraylib compound dictionary): 
+#UD    #Uname
+#UD    #UnElements
+#UD    #Udensity
+#UD 
+
+
+#S 0 A-150 Tissue-Equivalent Plastic
+#Uname A-150 Tissue-Equivalent Plastic
+#UnElements 6
+#Udensity 1.127
+#N 2
+#L Elements  massFractions
+1 0.101327
+6 0.775501
+7 0.035057
+8 0.052316
+9 0.017422
+20 0.018378
+
+#S 1 Acetone
+#Uname Acetone
+#UnElements 3
+#Udensity 0.7899
+#N 2
+#L Elements  massFractions
+1 0.104122
+6 0.620405
+8 0.275473
+
+#S 2 Acetylene
+#Uname Acetylene
+#UnElements 2
+#Udensity 0.001097
+#N 2
+#L Elements  massFractions
+1 0.077418
+6 0.922582
+
+#S 3 Adenine
+#Uname Adenine
+#UnElements 3
+#Udensity 1.35
+#N 2
+#L Elements  massFractions
+1 0.037294
+6 0.44443
+7 0.518275
+
+#S 4 Adipose Tissue (ICRP)
+#Uname Adipose Tissue (ICRP)
+#UnElements 13
+#Udensity 0.92
+#N 2
+#L Elements  massFractions
+1 0.119477
+6 0.63724
+7 0.00797
+8 0.232333
+11 0.0005
+12 2e-05
+15 0.00016
+16 0.00073
+17 0.00119
+19 0.00032
+20 2e-05
+26 2e-05
+30 2e-05
+
+#S 5 Air, Dry (near sea level)
+#Uname Air, Dry (near sea level)
+#UnElements 4
+#Udensity 0.001205
+#N 2
+#L Elements  massFractions
+6 0.000124
+7 0.755267
+8 0.231781
+18 0.012827
+
+#S 6 Alanine
+#Uname Alanine
+#UnElements 4
+#Udensity 1.42
+#N 2
+#L Elements  massFractions
+1 0.07919
+6 0.404439
+7 0.157213
+8 0.359159
+
+#S 7 Aluminum Oxide
+#Uname Aluminum Oxide
+#UnElements 2
+#Udensity 3.97
+#N 2
+#L Elements  massFractions
+8 0.470749
+13 0.529251
+
+#S 8 Amber
+#Uname Amber
+#UnElements 3
+#Udensity 1.1
+#N 2
+#L Elements  massFractions
+1 0.10593
+6 0.788973
+8 0.105096
+
+#S 9 Ammonia
+#Uname Ammonia
+#UnElements 2
+#Udensity 0.000826
+#N 2
+#L Elements  massFractions
+1 0.177547
+7 0.822453
+
+#S 10 Aniline
+#Uname Aniline
+#UnElements 3
+#Udensity 1.0235
+#N 2
+#L Elements  massFractions
+1 0.075759
+6 0.773838
+7 0.150403
+
+#S 11 Anthracene
+#Uname Anthracene
+#UnElements 2
+#Udensity 1.283
+#N 2
+#L Elements  massFractions
+1 0.05655
+6 0.94345
+
+#S 12 B-100 Bone-Equivalent Plastic
+#Uname B-100 Bone-Equivalent Plastic
+#UnElements 6
+#Udensity 1.45
+#N 2
+#L Elements  massFractions
+1 0.065471
+6 0.536945
+7 0.0215
+8 0.032085
+9 0.167411
+20 0.176589
+
+#S 13 Bakelite
+#Uname Bakelite
+#UnElements 3
+#Udensity 1.25
+#N 2
+#L Elements  massFractions
+1 0.057441
+6 0.774591
+8 0.167968
+
+#S 14 Barium Fluoride
+#Uname Barium Fluoride
+#UnElements 2
+#Udensity 4.89
+#N 2
+#L Elements  massFractions
+9 0.21672
+56 0.78328
+
+#S 15 Barium Sulfate
+#Uname Barium Sulfate
+#UnElements 3
+#Udensity 4.5
+#N 2
+#L Elements  massFractions
+8 0.274212
+16 0.137368
+56 0.58842
+
+#S 16 Benzene
+#Uname Benzene
+#UnElements 2
+#Udensity 0.87865
+#N 2
+#L Elements  massFractions
+1 0.077418
+6 0.922582
+
+#S 17 Beryllium oxide
+#Uname Beryllium oxide
+#UnElements 2
+#Udensity 3.01
+#N 2
+#L Elements  massFractions
+4 0.36032
+8 0.63968
+
+#S 18 Bismuth Germanium oxide
+#Uname Bismuth Germanium oxide
+#UnElements 3
+#Udensity 7.13
+#N 2
+#L Elements  massFractions
+8 0.154126
+32 0.17482
+83 0.671054
+
+#S 19 Blood (ICRP)
+#Uname Blood (ICRP)
+#UnElements 14
+#Udensity 1.06
+#N 2
+#L Elements  massFractions
+1 0.101866
+6 0.10002
+7 0.02964
+8 0.759414
+11 0.00185
+12 4e-05
+14 3e-05
+15 0.00035
+16 0.00185
+17 0.00278
+19 0.00163
+20 6e-05
+26 0.00046
+30 1e-05
+
+#S 20 Bone, Compact (ICRU)
+#Uname Bone, Compact (ICRU)
+#UnElements 8
+#Udensity 1.85
+#N 2
+#L Elements  massFractions
+1 0.063984
+6 0.278
+7 0.027
+8 0.410016
+12 0.002
+15 0.07
+16 0.002
+20 0.147
+
+#S 21 Bone, Cortical (ICRP)
+#Uname Bone, Cortical (ICRP)
+#UnElements 9
+#Udensity 1.85
+#N 2
+#L Elements  massFractions
+1 0.047234
+6 0.14433
+7 0.04199
+8 0.446096
+12 0.0022
+15 0.10497
+16 0.00315
+20 0.20993
+30 0.0001
+
+#S 22 Boron Carbide
+#Uname Boron Carbide
+#UnElements 2
+#Udensity 2.52
+#N 2
+#L Elements  massFractions
+5 0.78261
+6 0.21739
+
+#S 23 Boron Oxide
+#Uname Boron Oxide
+#UnElements 2
+#Udensity 1.812
+#N 2
+#L Elements  massFractions
+5 0.310551
+8 0.689449
+
+#S 24 Brain (ICRP)
+#Uname Brain (ICRP)
+#UnElements 13
+#Udensity 1.03
+#N 2
+#L Elements  massFractions
+1 0.110667
+6 0.12542
+7 0.01328
+8 0.737723
+11 0.00184
+12 0.00015
+15 0.00354
+16 0.00177
+17 0.00236
+19 0.0031
+20 9e-05
+26 5e-05
+30 1e-05
+
+#S 25 Butane
+#Uname Butane
+#UnElements 2
+#Udensity 0.002493
+#N 2
+#L Elements  massFractions
+1 0.173408
+6 0.826592
+
+#S 26 N-Butyl Alcohol
+#Uname N-Butyl Alcohol
+#UnElements 3
+#Udensity 0.8098
+#N 2
+#L Elements  massFractions
+1 0.135978
+6 0.648171
+8 0.215851
+
+#S 27 C-552 Air-Equivalent Plastic
+#Uname C-552 Air-Equivalent Plastic
+#UnElements 5
+#Udensity 1.76
+#N 2
+#L Elements  massFractions
+1 0.02468
+6 0.50161
+8 0.004527
+9 0.465209
+14 0.003973
+
+#S 28 Cadmium Telluride
+#Uname Cadmium Telluride
+#UnElements 2
+#Udensity 6.2
+#N 2
+#L Elements  massFractions
+48 0.468355
+52 0.531645
+
+#S 29 Cadmium Tungstate
+#Uname Cadmium Tungstate
+#UnElements 3
+#Udensity 7.9
+#N 2
+#L Elements  massFractions
+8 0.177644
+48 0.312027
+74 0.510329
+
+#S 30 Calcium Carbonate
+#Uname Calcium Carbonate
+#UnElements 3
+#Udensity 2.8
+#N 2
+#L Elements  massFractions
+6 0.120003
+8 0.479554
+20 0.400443
+
+#S 31 Calcium Fluoride
+#Uname Calcium Fluoride
+#UnElements 2
+#Udensity 3.18
+#N 2
+#L Elements  massFractions
+9 0.486659
+20 0.513341
+
+#S 32 Calcium Oxide
+#Uname Calcium Oxide
+#UnElements 2
+#Udensity 3.3
+#N 2
+#L Elements  massFractions
+8 0.285299
+20 0.714701
+
+#S 33 Calcium Sulfate
+#Uname Calcium Sulfate
+#UnElements 3
+#Udensity 2.96
+#N 2
+#L Elements  massFractions
+8 0.470095
+16 0.235497
+20 0.294408
+
+#S 34 Calcium Tungstate
+#Uname Calcium Tungstate
+#UnElements 3
+#Udensity 6.062
+#N 2
+#L Elements  massFractions
+8 0.22227
+20 0.139202
+74 0.638529
+
+#S 35 Carbon Dioxide
+#Uname Carbon Dioxide
+#UnElements 2
+#Udensity 0.001842
+#N 2
+#L Elements  massFractions
+6 0.272916
+8 0.727084
+
+#S 36 Carbon Tetrachloride
+#Uname Carbon Tetrachloride
+#UnElements 2
+#Udensity 1.594
+#N 2
+#L Elements  massFractions
+6 0.078083
+17 0.921917
+
+#S 37 Cellulose Acetate, Cellophane
+#Uname Cellulose Acetate, Cellophane
+#UnElements 3
+#Udensity 1.42
+#N 2
+#L Elements  massFractions
+1 0.062162
+6 0.444462
+8 0.493376
+
+#S 38 Cellulose Acetate Butyrate
+#Uname Cellulose Acetate Butyrate
+#UnElements 3
+#Udensity 1.2
+#N 2
+#L Elements  massFractions
+1 0.067125
+6 0.545403
+8 0.387472
+
+#S 39 Cellulose Nitrate
+#Uname Cellulose Nitrate
+#UnElements 4
+#Udensity 1.49
+#N 2
+#L Elements  massFractions
+1 0.029216
+6 0.271296
+7 0.121276
+8 0.578212
+
+#S 40 Ceric Sulfate Dosimeter Solution
+#Uname Ceric Sulfate Dosimeter Solution
+#UnElements 5
+#Udensity 1.03
+#N 2
+#L Elements  massFractions
+1 0.107596
+7 0.0008
+8 0.874976
+16 0.014627
+58 0.002001
+
+#S 41 Cesium Fluoride
+#Uname Cesium Fluoride
+#UnElements 2
+#Udensity 4.115
+#N 2
+#L Elements  massFractions
+9 0.125069
+55 0.874931
+
+#S 42 Cesium Iodide
+#Uname Cesium Iodide
+#UnElements 2
+#Udensity 4.51
+#N 2
+#L Elements  massFractions
+53 0.488451
+55 0.511549
+
+#S 43 Chlorobenzene
+#Uname Chlorobenzene
+#UnElements 3
+#Udensity 1.1058
+#N 2
+#L Elements  massFractions
+1 0.044772
+6 0.640254
+17 0.314974
+
+#S 44 Chloroform
+#Uname Chloroform
+#UnElements 3
+#Udensity 1.4832
+#N 2
+#L Elements  massFractions
+1 0.008443
+6 0.100613
+17 0.890944
+
+#S 45 Concrete, Portland
+#Uname Concrete, Portland
+#UnElements 10
+#Udensity 2.3
+#N 2
+#L Elements  massFractions
+1 0.01
+6 0.001
+8 0.529107
+11 0.016
+12 0.002
+13 0.033872
+14 0.337021
+19 0.013
+20 0.044
+26 0.014
+
+#S 46 Cyclohexane
+#Uname Cyclohexane
+#UnElements 2
+#Udensity 0.779
+#N 2
+#L Elements  massFractions
+1 0.143711
+6 0.856289
+
+#S 47 1,2-Ddihlorobenzene
+#Uname 1,2-Ddihlorobenzene
+#UnElements 3
+#Udensity 1.3048
+#N 2
+#L Elements  massFractions
+1 0.027425
+6 0.490233
+17 0.482342
+
+#S 48 Dichlorodiethyl Ether
+#Uname Dichlorodiethyl Ether
+#UnElements 4
+#Udensity 1.2199
+#N 2
+#L Elements  massFractions
+1 0.056381
+6 0.335942
+8 0.111874
+17 0.495802
+
+#S 49 1,2-Dichloroethane
+#Uname 1,2-Dichloroethane
+#UnElements 3
+#Udensity 1.2351
+#N 2
+#L Elements  massFractions
+1 0.04074
+6 0.242746
+17 0.716515
+
+#S 50 Diethyl Ether
+#Uname Diethyl Ether
+#UnElements 3
+#Udensity 0.71378
+#N 2
+#L Elements  massFractions
+1 0.135978
+6 0.648171
+8 0.215851
+
+#S 51 N,N-Dimethyl Formamide
+#Uname N,N-Dimethyl Formamide
+#UnElements 4
+#Udensity 0.9487
+#N 2
+#L Elements  massFractions
+1 0.096523
+6 0.492965
+7 0.191625
+8 0.218887
+
+#S 52 Dimethyl Sulfoxide
+#Uname Dimethyl Sulfoxide
+#UnElements 4
+#Udensity 1.1014
+#N 2
+#L Elements  massFractions
+1 0.077403
+6 0.307467
+8 0.204782
+16 0.410348
+
+#S 53 Ethane
+#Uname Ethane
+#UnElements 2
+#Udensity 0.001253
+#N 2
+#L Elements  massFractions
+1 0.201115
+6 0.798885
+
+#S 54 Ethyl Alcohol
+#Uname Ethyl Alcohol
+#UnElements 3
+#Udensity 0.7893
+#N 2
+#L Elements  massFractions
+1 0.131269
+6 0.521438
+8 0.347294
+
+#S 55 Ethyl Cellulose
+#Uname Ethyl Cellulose
+#UnElements 3
+#Udensity 1.13
+#N 2
+#L Elements  massFractions
+1 0.090027
+6 0.585182
+8 0.324791
+
+#S 56 Ethylene
+#Uname Ethylene
+#UnElements 2
+#Udensity 0.001175
+#N 2
+#L Elements  massFractions
+1 0.143711
+6 0.856289
+
+#S 57 Eye Lens (ICRP)
+#Uname Eye Lens (ICRP)
+#UnElements 4
+#Udensity 1.1
+#N 2
+#L Elements  massFractions
+1 0.099269
+6 0.19371
+7 0.05327
+8 0.653751
+
+#S 58 Ferric Oxide
+#Uname Ferric Oxide
+#UnElements 2
+#Udensity 5.2
+#N 2
+#L Elements  massFractions
+8 0.300567
+26 0.699433
+
+#S 59 Ferroboride
+#Uname Ferroboride
+#UnElements 2
+#Udensity 7.15
+#N 2
+#L Elements  massFractions
+5 0.162174
+26 0.837826
+
+#S 60 Ferrous Oxide
+#Uname Ferrous Oxide
+#UnElements 2
+#Udensity 5.7
+#N 2
+#L Elements  massFractions
+8 0.222689
+26 0.777311
+
+#S 61 Ferrous Sulfate Dosimeter Solution
+#Uname Ferrous Sulfate Dosimeter Solution
+#UnElements 7
+#Udensity 1.024
+#N 2
+#L Elements  massFractions
+1 0.108259
+7 2.7e-05
+8 0.878636
+11 2.2e-05
+16 0.012968
+17 3.4e-05
+26 5.4e-05
+
+#S 62 Freon-12
+#Uname Freon-12
+#UnElements 3
+#Udensity 1.12
+#N 2
+#L Elements  massFractions
+6 0.099335
+9 0.314247
+17 0.586418
+
+#S 63 Freon-12B2
+#Uname Freon-12B2
+#UnElements 3
+#Udensity 1.8
+#N 2
+#L Elements  massFractions
+6 0.057245
+9 0.181096
+35 0.761659
+
+#S 64 Freon-13
+#Uname Freon-13
+#UnElements 3
+#Udensity 0.95
+#N 2
+#L Elements  massFractions
+6 0.114983
+9 0.545622
+17 0.339396
+
+#S 65 Freon-13B1
+#Uname Freon-13B1
+#UnElements 3
+#Udensity 1.5
+#N 2
+#L Elements  massFractions
+6 0.080659
+9 0.382749
+35 0.536592
+
+#S 66 Freon-13I1
+#Uname Freon-13I1
+#UnElements 3
+#Udensity 1.8
+#N 2
+#L Elements  massFractions
+6 0.061309
+9 0.290924
+53 0.647767
+
+#S 67 Gadolinium Oxysulfide
+#Uname Gadolinium Oxysulfide
+#UnElements 3
+#Udensity 7.44
+#N 2
+#L Elements  massFractions
+8 0.084528
+16 0.08469
+64 0.830782
+
+#S 68 Gallium Arsenide
+#Uname Gallium Arsenide
+#UnElements 2
+#Udensity 5.31
+#N 2
+#L Elements  massFractions
+31 0.482019
+33 0.517981
+
+#S 69 Gel in Photographic Emulsion
+#Uname Gel in Photographic Emulsion
+#UnElements 5
+#Udensity 1.2914
+#N 2
+#L Elements  massFractions
+1 0.08118
+6 0.41606
+7 0.11124
+8 0.38064
+16 0.01088
+
+#S 70 Glass, Pyrex
+#Uname Glass, Pyrex
+#UnElements 6
+#Udensity 2.23
+#N 2
+#L Elements  massFractions
+5 0.040064
+8 0.539562
+11 0.028191
+13 0.011644
+14 0.37722
+19 0.003321
+
+#S 71 Glass, Lead
+#Uname Glass, Lead
+#UnElements 5
+#Udensity 6.22
+#N 2
+#L Elements  massFractions
+8 0.156453
+14 0.080866
+22 0.008092
+33 0.002651
+82 0.751938
+
+#S 72 Glass, Plate
+#Uname Glass, Plate
+#UnElements 4
+#Udensity 2.4
+#N 2
+#L Elements  massFractions
+8 0.4598
+11 0.096441
+14 0.336553
+20 0.107205
+
+#S 73 Glucose
+#Uname Glucose
+#UnElements 3
+#Udensity 1.54
+#N 2
+#L Elements  massFractions
+1 0.071204
+6 0.363652
+8 0.565144
+
+#S 74 Glutamine
+#Uname Glutamine
+#UnElements 4
+#Udensity 1.46
+#N 2
+#L Elements  massFractions
+1 0.068965
+6 0.410926
+7 0.191681
+8 0.328427
+
+#S 75 Glycerol
+#Uname Glycerol
+#UnElements 3
+#Udensity 1.2613
+#N 2
+#L Elements  massFractions
+1 0.087554
+6 0.391262
+8 0.521185
+
+#S 76 Guanine
+#Uname Guanine
+#UnElements 4
+#Udensity 1.58
+#N 2
+#L Elements  massFractions
+1 0.033346
+6 0.39738
+7 0.463407
+8 0.105867
+
+#S 77 Gypsum, Plaster of Paris
+#Uname Gypsum, Plaster of Paris
+#UnElements 4
+#Udensity 2.32
+#N 2
+#L Elements  massFractions
+1 0.023416
+8 0.557572
+16 0.186215
+20 0.232797
+
+#S 78 N-Heptane
+#Uname N-Heptane
+#UnElements 2
+#Udensity 0.68376
+#N 2
+#L Elements  massFractions
+1 0.160937
+6 0.839063
+
+#S 79 N-Hexane
+#Uname N-Hexane
+#UnElements 2
+#Udensity 0.6603
+#N 2
+#L Elements  massFractions
+1 0.163741
+6 0.836259
+
+#S 80 Kapton Polyimide Film
+#Uname Kapton Polyimide Film
+#UnElements 4
+#Udensity 1.42
+#N 2
+#L Elements  massFractions
+1 0.026362
+6 0.691133
+7 0.07327
+8 0.209235
+
+#S 81 Lanthanum Oxybromide
+#Uname Lanthanum Oxybromide
+#UnElements 3
+#Udensity 6.28
+#N 2
+#L Elements  massFractions
+8 0.068138
+35 0.340294
+57 0.591568
+
+#S 82 Lanthanum Oxysulfide
+#Uname Lanthanum Oxysulfide
+#UnElements 3
+#Udensity 5.86
+#N 2
+#L Elements  massFractions
+8 0.0936
+16 0.093778
+57 0.812622
+
+#S 83 Lead Oxide
+#Uname Lead Oxide
+#UnElements 2
+#Udensity 9.53
+#N 2
+#L Elements  massFractions
+8 0.071682
+82 0.928318
+
+#S 84 Lithium Amide
+#Uname Lithium Amide
+#UnElements 3
+#Udensity 1.178
+#N 2
+#L Elements  massFractions
+1 0.087783
+3 0.302262
+7 0.609955
+
+#S 85 Lithium Carbonate
+#Uname Lithium Carbonate
+#UnElements 3
+#Udensity 2.11
+#N 2
+#L Elements  massFractions
+3 0.187871
+6 0.16255
+8 0.649579
+
+#S 86 Lithium Fluoride
+#Uname Lithium Fluoride
+#UnElements 2
+#Udensity 2.635
+#N 2
+#L Elements  massFractions
+3 0.267585
+9 0.732415
+
+#S 87 Lithium Hydride
+#Uname Lithium Hydride
+#UnElements 2
+#Udensity 0.82
+#N 2
+#L Elements  massFractions
+1 0.126797
+3 0.873203
+
+#S 88 Lithium Iodide
+#Uname Lithium Iodide
+#UnElements 2
+#Udensity 3.494
+#N 2
+#L Elements  massFractions
+3 0.051858
+53 0.948142
+
+#S 89 Lithium Oxide
+#Uname Lithium Oxide
+#UnElements 2
+#Udensity 2.013
+#N 2
+#L Elements  massFractions
+3 0.46457
+8 0.53543
+
+#S 90 Lithium Tetraborate
+#Uname Lithium Tetraborate
+#UnElements 3
+#Udensity 2.44
+#N 2
+#L Elements  massFractions
+3 0.082085
+5 0.25568
+8 0.662235
+
+#S 91 Lung (ICRP)
+#Uname Lung (ICRP)
+#UnElements 13
+#Udensity 1.05
+#N 2
+#L Elements  massFractions
+1 0.101278
+6 0.10231
+7 0.02865
+8 0.757072
+11 0.00184
+12 0.00073
+15 0.0008
+16 0.00225
+17 0.00266
+19 0.00194
+20 9e-05
+26 0.00037
+30 1e-05
+
+#S 92 M3 Wax
+#Uname M3 Wax
+#UnElements 5
+#Udensity 1.05
+#N 2
+#L Elements  massFractions
+1 0.114318
+6 0.655823
+8 0.092183
+12 0.134792
+20 0.002883
+
+#S 93 Magnesium Carbonate
+#Uname Magnesium Carbonate
+#UnElements 3
+#Udensity 2.958
+#N 2
+#L Elements  massFractions
+6 0.142455
+8 0.569278
+12 0.288267
+
+#S 94 Magnesium Fluoride
+#Uname Magnesium Fluoride
+#UnElements 2
+#Udensity 3
+#N 2
+#L Elements  massFractions
+9 0.609883
+12 0.390117
+
+#S 95 Magnesium Oxide
+#Uname Magnesium Oxide
+#UnElements 2
+#Udensity 3.58
+#N 2
+#L Elements  massFractions
+8 0.396964
+12 0.603036
+
+#S 96 Magnesium Tetraborate
+#Uname Magnesium Tetraborate
+#UnElements 3
+#Udensity 2.53
+#N 2
+#L Elements  massFractions
+5 0.240837
+8 0.62379
+12 0.135373
+
+#S 97 Mercuric Iodide
+#Uname Mercuric Iodide
+#UnElements 2
+#Udensity 6.36
+#N 2
+#L Elements  massFractions
+53 0.55856
+80 0.44144
+
+#S 98 Methane
+#Uname Methane
+#UnElements 2
+#Udensity 0.000667
+#N 2
+#L Elements  massFractions
+1 0.251306
+6 0.748694
+
+#S 99 Methanol
+#Uname Methanol
+#UnElements 3
+#Udensity 0.7914
+#N 2
+#L Elements  massFractions
+1 0.125822
+6 0.374852
+8 0.499326
+
+#S 100 Mix D Wax
+#Uname Mix D Wax
+#UnElements 5
+#Udensity 0.99
+#N 2
+#L Elements  massFractions
+1 0.13404
+6 0.77796
+8 0.03502
+12 0.038594
+22 0.014386
+
+#S 101 MS20 Tissue Substitute
+#Uname MS20 Tissue Substitute
+#UnElements 6
+#Udensity 1
+#N 2
+#L Elements  massFractions
+1 0.081192
+6 0.583442
+7 0.017798
+8 0.186381
+12 0.130287
+17 0.0009
+
+#S 102 Muscle, Skeletal
+#Uname Muscle, Skeletal
+#UnElements 13
+#Udensity 1.04
+#N 2
+#L Elements  massFractions
+1 0.100637
+6 0.10783
+7 0.02768
+8 0.754773
+11 0.00075
+12 0.00019
+15 0.0018
+16 0.00241
+17 0.00079
+19 0.00302
+20 3e-05
+26 4e-05
+30 5e-05
+
+#S 103 Muscle, Striated
+#Uname Muscle, Striated
+#UnElements 9
+#Udensity 1.04
+#N 2
+#L Elements  massFractions
+1 0.101997
+6 0.123
+7 0.035
+8 0.729003
+11 0.0008
+12 0.0002
+15 0.002
+16 0.005
+19 0.003
+
+#S 104 Muscle-Equivalent Liquid, with Sucrose
+#Uname Muscle-Equivalent Liquid, with Sucrose
+#UnElements 4
+#Udensity 1.11
+#N 2
+#L Elements  massFractions
+1 0.098234
+6 0.156214
+7 0.035451
+8 0.7101
+
+#S 105 Muscle-Equivalent Liquid, without Sucrose
+#Uname Muscle-Equivalent Liquid, without Sucrose
+#UnElements 4
+#Udensity 1.07
+#N 2
+#L Elements  massFractions
+1 0.101969
+6 0.120058
+7 0.035451
+8 0.742522
+
+#S 106 Naphthalene
+#Uname Naphthalene
+#UnElements 2
+#Udensity 1.145
+#N 2
+#L Elements  massFractions
+1 0.062909
+6 0.937091
+
+#S 107 Nitrobenzene
+#Uname Nitrobenzene
+#UnElements 4
+#Udensity 1.19867
+#N 2
+#L Elements  massFractions
+1 0.040935
+6 0.585374
+7 0.113773
+8 0.259918
+
+#S 108 Nitrous Oxide
+#Uname Nitrous Oxide
+#UnElements 2
+#Udensity 0.001831
+#N 2
+#L Elements  massFractions
+7 0.636483
+8 0.363517
+
+#S 109 Nylon, Du Pont ELVAmide 8062
+#Uname Nylon, Du Pont ELVAmide 8062
+#UnElements 4
+#Udensity 1.08
+#N 2
+#L Elements  massFractions
+1 0.103509
+6 0.648415
+7 0.099536
+8 0.148539
+
+#S 110 Nylon, type 6 and type 6/6
+#Uname Nylon, type 6 and type 6/6
+#UnElements 4
+#Udensity 1.14
+#N 2
+#L Elements  massFractions
+1 0.097976
+6 0.636856
+7 0.123779
+8 0.141389
+
+#S 111 Nylon, type 6/10
+#Uname Nylon, type 6/10
+#UnElements 4
+#Udensity 1.14
+#N 2
+#L Elements  massFractions
+1 0.107062
+6 0.680449
+7 0.099189
+8 0.1133
+
+#S 112 Nylon, type 11 (Rilsan)
+#Uname Nylon, type 11 (Rilsan)
+#UnElements 4
+#Udensity 1.425
+#N 2
+#L Elements  massFractions
+1 0.115476
+6 0.720819
+7 0.076417
+8 0.087289
+
+#S 113 Octane, Liquid
+#Uname Octane, Liquid
+#UnElements 2
+#Udensity 0.7026
+#N 2
+#L Elements  massFractions
+1 0.158821
+6 0.841179
+
+#S 114 Paraffin Wax
+#Uname Paraffin Wax
+#UnElements 2
+#Udensity 0.93
+#N 2
+#L Elements  massFractions
+1 0.148605
+6 0.851395
+
+#S 115 N-Pentane
+#Uname N-Pentane
+#UnElements 2
+#Udensity 0.6262
+#N 2
+#L Elements  massFractions
+1 0.167635
+6 0.832365
+
+#S 116 Photographic Emulsion
+#Uname Photographic Emulsion
+#UnElements 8
+#Udensity 3.815
+#N 2
+#L Elements  massFractions
+1 0.0141
+6 0.072261
+7 0.01932
+8 0.066101
+16 0.00189
+35 0.349103
+47 0.474105
+53 0.00312
+
+#S 117 Plastic Scintillator (Vinyltoluene based)
+#Uname Plastic Scintillator (Vinyltoluene based)
+#UnElements 2
+#Udensity 1.032
+#N 2
+#L Elements  massFractions
+1 0.085
+6 0.915
+
+#S 118 Plutonium Dioxide
+#Uname Plutonium Dioxide
+#UnElements 2
+#Udensity 11.46
+#N 2
+#L Elements  massFractions
+8 0.118055
+94 0.881945
+
+#S 119 Polyacrylonitrile
+#Uname Polyacrylonitrile
+#UnElements 3
+#Udensity 1.17
+#N 2
+#L Elements  massFractions
+1 0.056983
+6 0.679056
+7 0.263962
+
+#S 120 Polycarbonate (Makrolon, Lexan)
+#Uname Polycarbonate (Makrolon, Lexan)
+#UnElements 3
+#Udensity 1.2
+#N 2
+#L Elements  massFractions
+1 0.055491
+6 0.755751
+8 0.188758
+
+#S 121 Polychlorostyrene
+#Uname Polychlorostyrene
+#UnElements 3
+#Udensity 1.3
+#N 2
+#L Elements  massFractions
+1 0.061869
+6 0.696325
+17 0.241806
+
+#S 122 Polyethylene
+#Uname Polyethylene
+#UnElements 2
+#Udensity 0.94
+#N 2
+#L Elements  massFractions
+1 0.143711
+6 0.856289
+
+#S 123 Polyethylene Terephthalate (Mylar)
+#Uname Polyethylene Terephthalate (Mylar)
+#UnElements 3
+#Udensity 1.4
+#N 2
+#L Elements  massFractions
+1 0.041959
+6 0.625017
+8 0.333025
+
+#S 124 Polymethyl Methacralate (Lucite, Perspex)
+#Uname Polymethyl Methacralate (Lucite, Perspex)
+#UnElements 3
+#Udensity 1.19
+#N 2
+#L Elements  massFractions
+1 0.080538
+6 0.599848
+8 0.319614
+
+#S 125 Polyoxymethylene
+#Uname Polyoxymethylene
+#UnElements 3
+#Udensity 1.425
+#N 2
+#L Elements  massFractions
+1 0.067135
+6 0.400017
+8 0.532848
+
+#S 126 Polypropylene
+#Uname Polypropylene
+#UnElements 2
+#Udensity 0.9
+#N 2
+#L Elements  massFractions
+1 0.143711
+6 0.856289
+
+#S 127 Polystyrene
+#Uname Polystyrene
+#UnElements 2
+#Udensity 1.06
+#N 2
+#L Elements  massFractions
+1 0.077418
+6 0.922582
+
+#S 128 Polytetrafluoroethylene (Teflon)
+#Uname Polytetrafluoroethylene (Teflon)
+#UnElements 2
+#Udensity 2.2
+#N 2
+#L Elements  massFractions
+6 0.240183
+9 0.759817
+
+#S 129 Polytrifluorochloroethylene
+#Uname Polytrifluorochloroethylene
+#UnElements 3
+#Udensity 2.1
+#N 2
+#L Elements  massFractions
+6 0.20625
+9 0.489354
+17 0.304395
+
+#S 130 Polyvinyl Acetate
+#Uname Polyvinyl Acetate
+#UnElements 3
+#Udensity 1.19
+#N 2
+#L Elements  massFractions
+1 0.070245
+6 0.558066
+8 0.371689
+
+#S 131 Polyvinyl Alcohol
+#Uname Polyvinyl Alcohol
+#UnElements 3
+#Udensity 1.3
+#N 2
+#L Elements  massFractions
+1 0.091517
+6 0.545298
+8 0.363185
+
+#S 132 Polyvinyl Butyral
+#Uname Polyvinyl Butyral
+#UnElements 3
+#Udensity 1.12
+#N 2
+#L Elements  massFractions
+1 0.092802
+6 0.680561
+8 0.226637
+
+#S 133 Polyvinyl Chloride
+#Uname Polyvinyl Chloride
+#UnElements 3
+#Udensity 1.3
+#N 2
+#L Elements  massFractions
+1 0.04838
+6 0.38436
+17 0.56726
+
+#S 134 Polyvinylidene Chloride, Saran
+#Uname Polyvinylidene Chloride, Saran
+#UnElements 3
+#Udensity 1.7
+#N 2
+#L Elements  massFractions
+1 0.020793
+6 0.247793
+17 0.731413
+
+#S 135 Polyvinylidene Fluoride
+#Uname Polyvinylidene Fluoride
+#UnElements 3
+#Udensity 1.76
+#N 2
+#L Elements  massFractions
+1 0.03148
+6 0.375141
+9 0.593379
+
+#S 136 Polyvinyl Pyrrolidone
+#Uname Polyvinyl Pyrrolidone
+#UnElements 4
+#Udensity 1.25
+#N 2
+#L Elements  massFractions
+1 0.081616
+6 0.648407
+7 0.126024
+8 0.143953
+
+#S 137 Potassium Iodide
+#Uname Potassium Iodide
+#UnElements 2
+#Udensity 3.13
+#N 2
+#L Elements  massFractions
+19 0.235528
+53 0.764472
+
+#S 138 Potassium Oxide
+#Uname Potassium Oxide
+#UnElements 2
+#Udensity 2.32
+#N 2
+#L Elements  massFractions
+8 0.169852
+19 0.830148
+
+#S 139 Propane
+#Uname Propane
+#UnElements 2
+#Udensity 0.001879
+#N 2
+#L Elements  massFractions
+1 0.182855
+6 0.817145
+
+#S 140 Propane, Liquid
+#Uname Propane, Liquid
+#UnElements 2
+#Udensity 0.43
+#N 2
+#L Elements  massFractions
+1 0.182855
+6 0.817145
+
+#S 141 N-Propyl Alcohol
+#Uname N-Propyl Alcohol
+#UnElements 3
+#Udensity 0.8035
+#N 2
+#L Elements  massFractions
+1 0.134173
+6 0.599595
+8 0.266232
+
+#S 142 Pyridine
+#Uname Pyridine
+#UnElements 3
+#Udensity 0.9819
+#N 2
+#L Elements  massFractions
+1 0.06371
+6 0.759217
+7 0.177073
+
+#S 143 Rubber, Butyl
+#Uname Rubber, Butyl
+#UnElements 2
+#Udensity 0.92
+#N 2
+#L Elements  massFractions
+1 0.143711
+6 0.856289
+
+#S 144 Rubber, Natural
+#Uname Rubber, Natural
+#UnElements 2
+#Udensity 0.92
+#N 2
+#L Elements  massFractions
+1 0.118371
+6 0.881629
+
+#S 145 Rubber, Neoprene
+#Uname Rubber, Neoprene
+#UnElements 3
+#Udensity 1.23
+#N 2
+#L Elements  massFractions
+1 0.05692
+6 0.542646
+17 0.400434
+
+#S 146 Silicon Dioxide
+#Uname Silicon Dioxide
+#UnElements 2
+#Udensity 2.32
+#N 2
+#L Elements  massFractions
+8 0.532565
+14 0.467435
+
+#S 147 Silver Bromide
+#Uname Silver Bromide
+#UnElements 2
+#Udensity 6.473
+#N 2
+#L Elements  massFractions
+35 0.425537
+47 0.574463
+
+#S 148 Silver Chloride
+#Uname Silver Chloride
+#UnElements 2
+#Udensity 5.56
+#N 2
+#L Elements  massFractions
+17 0.247368
+47 0.752632
+
+#S 149 Silver Halides in Photographic Emulsion
+#Uname Silver Halides in Photographic Emulsion
+#UnElements 3
+#Udensity 6.47
+#N 2
+#L Elements  massFractions
+35 0.422895
+47 0.573748
+53 0.003357
+
+#S 150 Silver Iodide
+#Uname Silver Iodide
+#UnElements 2
+#Udensity 6.01
+#N 2
+#L Elements  massFractions
+47 0.459458
+53 0.540542
+
+#S 151 Skin (ICRP)
+#Uname Skin (ICRP)
+#UnElements 13
+#Udensity 1.1
+#N 2
+#L Elements  massFractions
+1 0.100588
+6 0.22825
+7 0.04642
+8 0.619002
+11 7e-05
+12 6e-05
+15 0.00033
+16 0.00159
+17 0.00267
+19 0.00085
+20 0.00015
+26 1e-05
+30 1e-05
+
+#S 152 Sodium Carbonate
+#Uname Sodium Carbonate
+#UnElements 3
+#Udensity 2.532
+#N 2
+#L Elements  massFractions
+6 0.113323
+8 0.452861
+11 0.433815
+
+#S 153 Sodium Iodide
+#Uname Sodium Iodide
+#UnElements 2
+#Udensity 3.667
+#N 2
+#L Elements  massFractions
+11 0.153373
+53 0.846627
+
+#S 154 Sodium Monoxide
+#Uname Sodium Monoxide
+#UnElements 2
+#Udensity 2.27
+#N 2
+#L Elements  massFractions
+8 0.258143
+11 0.741857
+
+#S 155 Sodium Nitrate
+#Uname Sodium Nitrate
+#UnElements 3
+#Udensity 2.261
+#N 2
+#L Elements  massFractions
+7 0.164795
+8 0.56472
+11 0.270485
+
+#S 156 Stilbene
+#Uname Stilbene
+#UnElements 2
+#Udensity 0.9707
+#N 2
+#L Elements  massFractions
+1 0.067101
+6 0.932899
+
+#S 157 Sucrose
+#Uname Sucrose
+#UnElements 3
+#Udensity 1.5805
+#N 2
+#L Elements  massFractions
+1 0.064779
+6 0.42107
+8 0.514151
+
+#S 158 Terphenyl
+#Uname Terphenyl
+#UnElements 2
+#Udensity 1.234
+#N 2
+#L Elements  massFractions
+1 0.044543
+6 0.955457
+
+#S 159 Testes (ICRP)
+#Uname Testes (ICRP)
+#UnElements 13
+#Udensity 1.04
+#N 2
+#L Elements  massFractions
+1 0.104166
+6 0.09227
+7 0.01994
+8 0.773884
+11 0.00226
+12 0.00011
+15 0.00125
+16 0.00146
+17 0.00244
+19 0.00208
+20 0.0001
+26 2e-05
+30 2e-05
+
+#S 160 Tetrachloroethylene
+#Uname Tetrachloroethylene
+#UnElements 2
+#Udensity 1.625
+#N 2
+#L Elements  massFractions
+6 0.144856
+17 0.855144
+
+#S 161 Thallium Chloride
+#Uname Thallium Chloride
+#UnElements 2
+#Udensity 7.004
+#N 2
+#L Elements  massFractions
+17 0.147822
+81 0.852178
+
+#S 162 Tissue, Soft (ICRP)
+#Uname Tissue, Soft (ICRP)
+#UnElements 13
+#Udensity 1
+#N 2
+#L Elements  massFractions
+1 0.104472
+6 0.23219
+7 0.02488
+8 0.630238
+11 0.00113
+12 0.00013
+15 0.00133
+16 0.00199
+17 0.00134
+19 0.00199
+20 0.00023
+26 5e-05
+30 3e-05
+
+#S 163 Tissue, Soft (ICRU four-component)
+#Uname Tissue, Soft (ICRU four-component)
+#UnElements 4
+#Udensity 1
+#N 2
+#L Elements  massFractions
+1 0.101172
+6 0.111
+7 0.026
+8 0.761828
+
+#S 164 Tissue-Equivalent GAS (Methane based)
+#Uname Tissue-Equivalent GAS (Methane based)
+#UnElements 4
+#Udensity 0.001064
+#N 2
+#L Elements  massFractions
+1 0.101869
+6 0.456179
+7 0.035172
+8 0.40678
+
+#S 165 Tissue-Equivalent GAS (Propane based)
+#Uname Tissue-Equivalent GAS (Propane based)
+#UnElements 4
+#Udensity 0.001826
+#N 2
+#L Elements  massFractions
+1 0.102672
+6 0.56894
+7 0.035022
+8 0.293366
+
+#S 166 Titanium Dioxide
+#Uname Titanium Dioxide
+#UnElements 2
+#Udensity 4.26
+#N 2
+#L Elements  massFractions
+8 0.400592
+22 0.599408
+
+#S 167 Toluene
+#Uname Toluene
+#UnElements 2
+#Udensity 0.8669
+#N 2
+#L Elements  massFractions
+1 0.08751
+6 0.91249
+
+#S 168 Trichloroethylene
+#Uname Trichloroethylene
+#UnElements 3
+#Udensity 1.46
+#N 2
+#L Elements  massFractions
+1 0.007671
+6 0.182831
+17 0.809498
+
+#S 169 Triethyl Phosphate
+#Uname Triethyl Phosphate
+#UnElements 4
+#Udensity 1.07
+#N 2
+#L Elements  massFractions
+1 0.082998
+6 0.395628
+8 0.351334
+15 0.17004
+
+#S 170 Tungsten Hexafluoride
+#Uname Tungsten Hexafluoride
+#UnElements 2
+#Udensity 2.4
+#N 2
+#L Elements  massFractions
+9 0.382723
+74 0.617277
+
+#S 171 Uranium Dicarbide
+#Uname Uranium Dicarbide
+#UnElements 2
+#Udensity 11.28
+#N 2
+#L Elements  massFractions
+6 0.091669
+92 0.908331
+
+#S 172 Uranium Monocarbide
+#Uname Uranium Monocarbide
+#UnElements 2
+#Udensity 13.63
+#N 2
+#L Elements  massFractions
+6 0.048036
+92 0.951964
+
+#S 173 Uranium Oxide
+#Uname Uranium Oxide
+#UnElements 2
+#Udensity 10.96
+#N 2
+#L Elements  massFractions
+8 0.118502
+92 0.881498
+
+#S 174 Urea
+#Uname Urea
+#UnElements 4
+#Udensity 1.323
+#N 2
+#L Elements  massFractions
+1 0.067131
+6 0.199999
+7 0.466459
+8 0.266411
+
+#S 175 Valine
+#Uname Valine
+#UnElements 4
+#Udensity 1.23
+#N 2
+#L Elements  massFractions
+1 0.094641
+6 0.512645
+7 0.119565
+8 0.27315
+
+#S 176 Viton Fluoroelastomer
+#Uname Viton Fluoroelastomer
+#UnElements 3
+#Udensity 1.8
+#N 2
+#L Elements  massFractions
+1 0.009417
+6 0.280555
+9 0.710028
+
+#S 177 Water, Liquid
+#Uname Water, Liquid
+#UnElements 2
+#Udensity 1
+#N 2
+#L Elements  massFractions
+1 0.111894
+8 0.888106
+
+#S 178 Water Vapor
+#Uname Water Vapor
+#UnElements 2
+#Udensity 0.000756
+#N 2
+#L Elements  massFractions
+1 0.111894
+8 0.888106
+
+#S 179 Xylene
+#Uname Xylene
+#UnElements 2
+#Udensity 0.87
+#N 2
+#L Elements  massFractions
+1 0.094935
+6 0.905065
+
