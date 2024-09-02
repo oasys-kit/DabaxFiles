@@ -4366,7 +4366,7 @@
 8  1     .0000,   .5000,   .3785
 
 #S 14 Quartz
-#UCELL 4.9133  4.9133  5.4053  90  90  90
+#UCELL 4.9133  4.9133  5.4053  90  90  120
 #UCOMMENT: data URL: https://x-server.gmca.aps.anl.gov/cgi/x0h_dump.pl?code=Quartz
 #UCOMMENT ;
 #UCOMMENT ;
@@ -4451,7 +4451,7 @@
 8  1   0.801873,  0.198127,  0.5
 
 #S 13 Sapphire_hex
-#UCELL 4.7597  4.7597  12.9935  90  90  90
+#UCELL 4.7597  4.7597  12.9935  90  90  120
 #UCOMMENT: data URL: https://x-server.gmca.aps.anl.gov/cgi/x0h_dump.pl?code=Sapphire_hex
 #UCOMMENT ;
 #UCOMMENT ;
@@ -4503,7 +4503,7 @@
 8  1     .97314,  .63983,  .08333
 
 #S 13 Sapphire_rhomb
-#UCELL 5.1284  5.1284  5.1284  55.287  90  90
+#UCELL 5.1284  5.1284  5.1284  55.287  55.287  55.287
 #UCOMMENT: data URL: https://x-server.gmca.aps.anl.gov/cgi/x0h_dump.pl?code=Sapphire_rhomb
 #UCOMMENT ;
 #UCOMMENT ;
